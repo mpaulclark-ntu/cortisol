@@ -1,6 +1,6 @@
 ---
 title: "Support Materials"
-subtitle: "Downloadable resources for Unit 5"
+subtitle: "Downloadable resources"
 ---
 
 ::: {.callout-tip}
@@ -16,11 +16,7 @@ Original lecture slide decks and annotated handouts from the taught sessions.
 
 | Document | Description | Format |
 |----------|-------------|--------|
-| [Cortisol Full Lecture](docs/lectures/Cortisol_lecture_Full.pdf) | Complete lecture covering physiology through drug discovery | PDF |
-| [Pathophysiology: Cushing's & Addison's](docs/lectures/Cortisol_lecture_Pathology.pdf) | Focused slides on cortisol pathophysiology | PDF |
-| [NCX-1015 & Drug Discovery](docs/lectures/Cortisol_lecture_NCX1015.pdf) | Drug discovery case study slides | PDF |
-| [Endocrine Revision Handout](docs/lectures/Endocrine_Revision_Handout.pdf) | Summary handout for HPA axis and GR signalling | PDF |
-| [Lecture Summary Notes](docs/lectures/Unit5_Summary_Notes.pdf) | Condensed revision notes for all 5 parts | PDF |
+| [Cortisol Lecture Slides](docs/lectures/cortisol-lecture-slides.pdf) | Complete lecture covering physiology through drug discovery | PDF |
 
 :::
 
@@ -28,16 +24,8 @@ Original lecture slide decks and annotated handouts from the taught sessions.
 
 Key papers, reviews, and textbook chapters supporting this unit.
 
-::: {.lecture-card}
-
-| Document | Description | Format |
-|----------|-------------|--------|
-| [Reading List — Unit 5](docs/reading/Unit5_Reading_List.pdf) | Complete annotated reading list | PDF |
-| [Rhen & Cidlowski (2005) — NEJM Review](docs/reading/Rhen_Cidlowski_2005_NEJM.pdf) | Antiinflammatory action of glucocorticoids — new mechanisms for old drugs | PDF |
-| [Paul-Clark et al. — NCX-1015](docs/reading/PaulClark_NCX1015.pdf) | Primary research paper on NCX-1015 | PDF |
-| [Drug Discovery Pipeline — Overview](docs/reading/Drug_Discovery_Overview.pdf) | Background reading on drug development stages and costs | PDF |
-| [Oakley & Cidlowski (2013) — GR Signalling](docs/reading/Oakley_Cidlowski_2013.pdf) | Review: Biology of the GR — new signaling mechanisms | PDF |
-
+::: {.callout-note}
+Reading materials will be added here as they become available.
 :::
 
 ## Past Exam Papers & Assessments {#exams}
@@ -48,11 +36,7 @@ Previous examination papers and example assessment questions for revision purpos
 
 | Document | Description | Format |
 |----------|-------------|--------|
-| [2024–25 Exam Paper](docs/exams/Exam_2024_25.pdf) | Previous year's examination paper | PDF |
-| [2023–24 Exam Paper](docs/exams/Exam_2023_24.pdf) | Two years ago examination paper | PDF |
-| [MCQ Practice Set](docs/exams/MCQ_Practice_Set.pdf) | Additional multiple choice practice questions | PDF |
-| [SAQ Model Answers](docs/exams/SAQ_Model_Answers.pdf) | Model answers for short answer questions | PDF |
-| [Essay Writing Guide](docs/exams/Essay_Guide.pdf) | Guidance on structuring pharmacology essays | PDF |
+| [2022–23 Practice Questions](docs/lectures/2022-23-practice-questions.docx) | Practice questions for revision | DOCX |
 
 :::
 
@@ -60,16 +44,8 @@ Previous examination papers and example assessment questions for revision purpos
 
 Supporting materials for practical sessions and laboratory work.
 
-::: {.lecture-card}
-
-| Document | Description | Format |
-|----------|-------------|--------|
-| [Practical 1 — GR Binding Assay](docs/practicals/Practical1_GR_Binding.pdf) | Protocol and background for receptor binding practical | PDF |
-| [Practical 2 — Inflammation Models](docs/practicals/Practical2_Inflammation_Models.pdf) | Overview of in vivo inflammation model methodology | PDF |
-| [Data Analysis Guide](docs/practicals/Data_Analysis_Guide.pdf) | Statistical analysis guidance for practical reports | PDF |
-| [Lab Report Template](docs/practicals/Lab_Report_Template.docx) | Template for practical report submissions | DOCX |
-| [Health & Safety Information](docs/practicals/Health_Safety.pdf) | Risk assessments and safety procedures | PDF |
-
+::: {.callout-note}
+Practical guides will be added here as they become available.
 :::
 
 ---
