@@ -1,0 +1,122 @@
+---
+title: "Support Materials"
+subtitle: "Downloadable resources for Unit 5"
+---
+
+::: {.callout-tip}
+## How to Access
+Click on any document link below to download or view. Materials are organised by type and will be updated throughout the academic year.
+:::
+
+## Lecture Slides & Handouts {#lectures}
+
+Original lecture slide decks and annotated handouts from the taught sessions.
+
+::: {.lecture-card}
+
+| Document | Description | Format |
+|----------|-------------|--------|
+| [Cortisol Full Lecture](docs/lectures/Cortisol_lecture_Full.pdf) | Complete lecture covering physiology through drug discovery | PDF |
+| [Pathophysiology: Cushing's & Addison's](docs/lectures/Cortisol_lecture_Pathology.pdf) | Focused slides on cortisol pathophysiology | PDF |
+| [NCX-1015 & Drug Discovery](docs/lectures/Cortisol_lecture_NCX1015.pdf) | Drug discovery case study slides | PDF |
+| [Endocrine Revision Handout](docs/lectures/Endocrine_Revision_Handout.pdf) | Summary handout for HPA axis and GR signalling | PDF |
+| [Lecture Summary Notes](docs/lectures/Unit5_Summary_Notes.pdf) | Condensed revision notes for all 5 parts | PDF |
+
+:::
+
+## Recommended Reading {#reading}
+
+Key papers, reviews, and textbook chapters supporting this unit.
+
+::: {.lecture-card}
+
+| Document | Description | Format |
+|----------|-------------|--------|
+| [Reading List — Unit 5](docs/reading/Unit5_Reading_List.pdf) | Complete annotated reading list | PDF |
+| [Rhen & Cidlowski (2005) — NEJM Review](docs/reading/Rhen_Cidlowski_2005_NEJM.pdf) | Antiinflammatory action of glucocorticoids — new mechanisms for old drugs | PDF |
+| [Paul-Clark et al. — NCX-1015](docs/reading/PaulClark_NCX1015.pdf) | Primary research paper on NCX-1015 | PDF |
+| [Drug Discovery Pipeline — Overview](docs/reading/Drug_Discovery_Overview.pdf) | Background reading on drug development stages and costs | PDF |
+| [Oakley & Cidlowski (2013) — GR Signalling](docs/reading/Oakley_Cidlowski_2013.pdf) | Review: Biology of the GR — new signaling mechanisms | PDF |
+
+:::
+
+## Past Exam Papers & Assessments {#exams}
+
+Previous examination papers and example assessment questions for revision purposes.
+
+::: {.lecture-card}
+
+| Document | Description | Format |
+|----------|-------------|--------|
+| [2024–25 Exam Paper](docs/exams/Exam_2024_25.pdf) | Previous year's examination paper | PDF |
+| [2023–24 Exam Paper](docs/exams/Exam_2023_24.pdf) | Two years ago examination paper | PDF |
+| [MCQ Practice Set](docs/exams/MCQ_Practice_Set.pdf) | Additional multiple choice practice questions | PDF |
+| [SAQ Model Answers](docs/exams/SAQ_Model_Answers.pdf) | Model answers for short answer questions | PDF |
+| [Essay Writing Guide](docs/exams/Essay_Guide.pdf) | Guidance on structuring pharmacology essays | PDF |
+
+:::
+
+## Practical & Laboratory Guides {#practicals}
+
+Supporting materials for practical sessions and laboratory work.
+
+::: {.lecture-card}
+
+| Document | Description | Format |
+|----------|-------------|--------|
+| [Practical 1 — GR Binding Assay](docs/practicals/Practical1_GR_Binding.pdf) | Protocol and background for receptor binding practical | PDF |
+| [Practical 2 — Inflammation Models](docs/practicals/Practical2_Inflammation_Models.pdf) | Overview of in vivo inflammation model methodology | PDF |
+| [Data Analysis Guide](docs/practicals/Data_Analysis_Guide.pdf) | Statistical analysis guidance for practical reports | PDF |
+| [Lab Report Template](docs/practicals/Lab_Report_Template.docx) | Template for practical report submissions | DOCX |
+| [Health & Safety Information](docs/practicals/Health_Safety.pdf) | Risk assessments and safety procedures | PDF |
+
+:::
+
+---
+
+::: {.callout-note}
+## Can't Find What You Need?
+All materials are also available on the [NTU NOW Learning Room](https://now.ntu.ac.uk/d2l/le/lessons/1120887/units/13808668) (Unit 5). Contact Dr Paul-Clark if you have difficulty accessing any resources.
+:::
+
+---
+
+## Adding Your Own Files
+
+::: {.callout-warning collapse="true"}
+## For the module leader: How to update this page
+
+To add your support documents from your local machine:
+
+**Step 1:** Copy files from your local folder into the appropriate `docs/` subfolder:
+
+```bash
+# From your local machine
+# Lectures
+cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/*.pdf docs/lectures/
+
+# Reading materials  
+cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/reading/*.pdf docs/reading/
+
+# Past exams
+cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/exams/*.pdf docs/exams/
+
+# Practical guides
+cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/practicals/*.pdf docs/practicals/
+```
+
+**Step 2:** Update the table entries above to match your actual filenames.
+
+**Step 3:** Rebuild and deploy:
+
+```bash
+quarto render
+git add -A
+git commit -m "Added support materials"
+git push
+```
+
+The site will automatically rebuild on GitHub Pages.
+
+**File naming convention:** Use descriptive names without spaces, e.g., `Cortisol_Full_Lecture.pdf`, `Rhen_Cidlowski_2005.pdf`
+:::

@@ -1,0 +1,274 @@
+---
+title: "Unit 5: Cortisol — Assessment Question Bank"
+subtitle: "BIOL09044 Inflammation & Cancer"
+author: "Dr Mark Paul-Clark"
+---
+
+# Multiple Choice Questions (MCQs)
+
+## Section A: Endocrine System & GR Signalling
+
+**Q1.** Which of the following correctly describes the signalling mechanism of cortisol?
+
+A) Cortisol binds a cell surface G-protein-coupled receptor and signals via cAMP  
+B) Cortisol binds an intracellular receptor that functions as a ligand-activated transcription factor  
+C) Cortisol activates a membrane-bound tyrosine kinase receptor  
+D) Cortisol signals exclusively through the IP₃/DAG second messenger pathway  
+
+**Answer: B** — Cortisol is lipophilic, crosses the membrane, and binds the intracellular glucocorticoid receptor, which acts as a transcription factor upon nuclear translocation.
+
+---
+
+**Q2.** In the inactive state, the glucocorticoid receptor is maintained in a ligand-binding competent conformation by which of the following?
+
+A) NF-κB and AP-1  
+B) Annexin-1 and IκBα  
+C) HSP90, HSP70, and immunophilins  
+D) cAMP and protein kinase A  
+
+**Answer: C** — The GR exists in a multiprotein chaperone complex including HSP90 (×2), HSP70, immunophilins (FKBP51/52), and p23.
+
+---
+
+**Q3.** Which process is primarily responsible for the anti-inflammatory therapeutic effects of glucocorticoids?
+
+A) Transactivation of metabolic genes via GRE binding  
+B) Transrepression of NF-κB and AP-1  
+C) Activation of the cAMP second messenger system  
+D) Upregulation of COX-2 and iNOS expression  
+
+**Answer: B** — Transrepression (GR monomer–mediated suppression of NF-κB and AP-1) is considered the primary mechanism of anti-inflammatory action. Many side effects arise from transactivation.
+
+---
+
+**Q4.** What percentage of circulating cortisol is biologically active?
+
+A) ~80%  
+B) ~50%  
+C) ~15%  
+D) ~5%  
+
+**Answer: D** — Only the free (unbound) fraction (~5%) can cross cell membranes and bind the GR. The remainder is bound to CBG (~80%) and albumin (~15%).
+
+---
+
+**Q5.** Which molecule provides the negative feedback signal to suppress CRH and ACTH release?
+
+A) Aldosterone  
+B) Cortisol  
+C) Annexin-1  
+D) POMC  
+
+**Answer: B** — Cortisol feeds back at both the hypothalamic (CRH) and pituitary (ACTH) levels to suppress further HPA axis activation.
+
+---
+
+## Section B: Physiological Actions of Cortisol
+
+**Q6.** The centripetal fat distribution seen in cortisol excess is caused by:
+
+A) Generalised lipogenesis throughout the body  
+B) Lipolysis in the trunk with lipogenesis in the extremities  
+C) Lipolysis in extremities with lipogenesis in the trunk, face, and interscapular region  
+D) Inhibition of all adipose tissue metabolism  
+
+**Answer: C** — Cortisol has differential effects on adipose tissue: promoting lipolysis peripherally and lipogenesis centrally, producing the characteristic redistribution.
+
+---
+
+**Q7.** Which of the following is NOT a direct mechanism by which glucocorticoids cause osteoporosis?
+
+A) Inhibition of osteoblast function  
+B) Stimulation of osteoclast activity  
+C) Increased intestinal calcium absorption  
+D) Reduced renal calcium reabsorption  
+
+**Answer: C** — Glucocorticoids *decrease* intestinal calcium absorption. All other options are correct mechanisms contributing to bone loss.
+
+---
+
+**Q8.** Glucocorticoids increase circulating neutrophil counts by which mechanism?
+
+A) Stimulating neutrophil production in the bone marrow  
+B) Preventing neutrophil apoptosis  
+C) Demargination — releasing neutrophils from the vascular endothelium  
+D) Blocking neutrophil emigration into tissues only  
+
+**Answer: C** — Demargination is the primary mechanism; GCs cause neutrophils adherent to the endothelium to detach and re-enter the circulating pool, producing an apparent neutrophilia.
+
+---
+
+## Section C: Pathophysiology — Cushing's & Addison's
+
+**Q9.** A patient presents with cortisol excess and suppressed plasma ACTH. Which is the most likely cause?
+
+A) Pituitary adenoma  
+B) Ectopic ACTH from small cell lung carcinoma  
+C) Autonomous cortisol-secreting adrenal tumour  
+D) Iatrogenic CRH administration  
+
+**Answer: C** — Suppressed ACTH in the presence of cortisol excess indicates the source is the adrenal gland itself, producing cortisol autonomously and suppressing pituitary ACTH via negative feedback.
+
+---
+
+**Q10.** Which clinical feature distinguishes primary from secondary adrenal insufficiency?
+
+A) Fatigue  
+B) Hypotension  
+C) Hyperpigmentation  
+D) Hypoglycaemia  
+
+**Answer: C** — Hyperpigmentation occurs only in primary disease, where loss of cortisol feedback leads to elevated ACTH (derived from POMC), which activates melanocortin receptors. In secondary disease, ACTH is low.
+
+---
+
+**Q11.** A patient with Addison's disease is at risk of addisonian crisis. The two hallmark features of this emergency are:
+
+A) Hypertension and hyperglycaemia  
+B) Severe hypotension and hyperkalaemia  
+C) Fever and tachycardia  
+D) Hyperpigmentation and weight gain  
+
+**Answer: B** — Addisonian crisis is characterised by cardiovascular collapse (severe hypotension from loss of cortisol's vascular tone effects and aldosterone's sodium-retaining action) and dangerous hyperkalaemia (from loss of aldosterone-mediated potassium excretion).
+
+---
+
+**Q12.** The hyperpigmentation in Addison's disease occurs because elevated ACTH activates:
+
+A) Glucocorticoid receptors in melanocytes  
+B) Mineralocorticoid receptors in the skin  
+C) Melanocortin receptors via POMC-derived peptides  
+D) Tyrosinase directly in keratinocytes  
+
+**Answer: C** — ACTH is co-derived from POMC. Elevated POMC processing produces excess ACTH and related peptides (α-MSH, β-lipotropin) that activate melanocortin receptors, stimulating melanogenesis.
+
+---
+
+## Section D: NCX-1015 Drug Discovery
+
+**Q13.** NCX-1015 releases nitric oxide through which mechanism?
+
+A) Spontaneous decomposition at physiological pH  
+B) Photolysis upon exposure to UV light  
+C) Esterase-mediated cleavage of the nitroxymethyl benzoate group  
+D) Reduction by cytochrome P450 enzymes  
+
+**Answer: C** — The NO-donating moiety is attached via an ester bond. Biological esterases (in plasma and tissues) cleave this bond, releasing NO in a time- and concentration-dependent manner.
+
+---
+
+**Q14.** In the zymosan peritonitis model, NCX-1015 was approximately how many times more potent than prednisolone at suppressing iNOS-derived nitrite?
+
+A) 2-fold  
+B) 5-fold  
+C) 16-fold  
+D) 50-fold  
+
+**Answer: C** — NCX-1015 ED₅₀ for iNOS/nitrite suppression was <0.5 mg/kg vs 8 mg/kg for prednisolone, representing a >16-fold improvement in potency.
+
+---
+
+**Q15.** What was the critical role of NCX-1016 in the NCX-1015 study?
+
+A) It served as a positive control for NO-releasing compounds  
+B) It was the oral formulation of NCX-1015  
+C) It was the structurally identical compound lacking the NO group, used to confirm NO-dependence of enhanced effects  
+D) It was the metabolically active form of NCX-1015  
+
+**Answer: C** — NCX-1016 has the same structure as NCX-1015 but without the NO-releasing capability. It behaved identically to prednisolone in both inflammation and bone assays, confirming that the enhanced effects of NCX-1015 are specifically attributable to NO release.
+
+---
+
+**Q16.** In the osteoclast resorption assay, NCX-1015's bone-sparing effect was abolished by co-treatment with:
+
+A) RU486 (GR antagonist)  
+B) Cycloheximide (protein synthesis inhibitor)  
+C) ODQ (guanylate cyclase inhibitor)  
+D) Geldanamycin (HSP90 ATPase inhibitor)  
+
+**Answer: C** — ODQ blocks the NO → guanylate cyclase → cGMP pathway. When cGMP production was blocked, NCX-1015 lost its protective effect and osteoclast resorption increased to prednisolone-like levels, proving the bone-sparing mechanism operates via NO-cGMP.
+
+---
+
+**Q17.** NCX-1015 was found to modify the GR protein through which novel post-translational mechanism?
+
+A) Phosphorylation  
+B) Ubiquitination  
+C) Tyrosine nitration  
+D) Sumoylation  
+
+**Answer: C** — NO released from NCX-1015 caused tyrosine nitration of the GR, detected both in vitro and in vivo. This novel modification is proposed to alter GR conformation and enhance its signalling potency.
+
+---
+
+**Q18.** In the collagen II-induced arthritis model, serum pyridinoline levels were used to assess:
+
+A) Hepatic function  
+B) Inflammatory cytokine production  
+C) Bone collagen degradation  
+D) Drug metabolism rate  
+
+**Answer: C** — Pyridinoline is a collagen cross-link released during bone resorption. Elevated serum pyridinoline indicates active bone degradation. NCX-1015 reduced pyridinoline to healthy baseline levels, confirming in vivo bone protection.
+
+---
+
+## Section E: Drug Discovery Process
+
+**Q19.** Which phase of clinical trials has the highest attrition rate and why?
+
+A) Phase I — because drugs are tested in humans for the first time  
+B) Phase II — because this is the first test of efficacy in the target patient population  
+C) Phase III — because large-scale trials reveal rare adverse events  
+D) Submission — because regulatory requirements are stringent  
+
+**Answer: B** — Phase II has a 56% attrition rate. This is where the "translation gap" (valley of death) manifests — many compounds that are safe in healthy volunteers (Phase I) fail to show sufficient efficacy in actual patients.
+
+---
+
+**Q20.** The total capitalised cost of bringing a single drug to market through the traditional pipeline is approximately:
+
+A) $100 million  
+B) $500 million  
+C) $1.6 billion  
+D) $5 billion  
+
+**Answer: C** — Cumulative capitalised costs across all stages (target validation through submission) exceed $1.6 billion per approved drug.
+
+---
+
+# Short Answer Questions
+
+**SAQ1.** Compare and contrast the transactivation and transrepression mechanisms of glucocorticoid receptor action. Which mechanism is primarily responsible for the anti-inflammatory effects, and which contributes more to side effects? (8 marks)
+
+*Model answer should cover: GR dimerisation → GRE binding → gene upregulation (transactivation) vs GR monomer → protein–protein interaction with NF-κB/AP-1 (transrepression). Anti-inflammatory genes upregulated (annexin-1, IκBα, IL-10). Pro-inflammatory genes suppressed (TNFα, IL-1β, COX-2, iNOS). Therapeutic effects primarily from transrepression; metabolic side effects (gluconeogenesis, protein catabolism) primarily from transactivation. This distinction drives the search for dissociated GR ligands.*
+
+---
+
+**SAQ2.** Explain why a patient with primary Addison's disease develops hyperpigmentation but a patient with secondary adrenal insufficiency does not. Include the relevant molecular pathway in your answer. (6 marks)
+
+*Model answer should cover: primary disease = adrenal destruction → no cortisol → loss of negative feedback → increased POMC processing in anterior pituitary → elevated ACTH + α-MSH + β-lipotropin → activation of melanocortin receptors (MC1R) → increased melanin deposition. Secondary disease = pituitary/hypothalamic failure → ACTH is LOW → no melanocortin receptor activation → no hyperpigmentation.*
+
+---
+
+**SAQ3.** Describe the experimental evidence demonstrating that NCX-1015's bone-sparing effect is mediated by the NO-cGMP pathway. Reference at least three key experiments from the preclinical programme. (10 marks)
+
+*Model answer should include: (1) Primary osteoclast assay — prednisolone 1 nM increased resorption ~175%, NCX-1015 1 nM did not; (2) ODQ co-treatment abolished NCX-1015's protection, confirming cGMP dependence; (3) NCX-1016 (no NO group) behaved like prednisolone, confirming NO requirement; (4) Prednisolone + NOC-18 (exogenous NO donor) rescued the bone phenotype; (5) Serum pyridinoline in arthritis model — NCX-1015 reduced to baseline while prednisolone did not. Credit for mentioning SEM confirmation on cortical bone slices.*
+
+---
+
+**SAQ4.** A pharmaceutical company has identified a promising anti-inflammatory compound in preclinical studies. Outline the major stages of the drug discovery pipeline this compound would need to pass through to reach clinical use, and identify where the highest risk of failure occurs. (8 marks)
+
+*Model answer should cover: target identification → target validation → lead identification → candidate optimisation → preclinical studies (toxicology, PK, GLP) → Phase I (safety, healthy volunteers) → Phase II (efficacy, target population) → Phase III (large-scale, comparative) → regulatory submission. Timeline ~12–14 years, cost >$1.6 billion. Highest attrition at Phase II (56%) due to translation gap. Credit for discussing drug reprofiling as alternative strategy and academic–industry collaboration.*
+
+---
+
+# Essay Question
+
+**Essay.** Critically evaluate the evidence that NCX-1015 represents a clinically viable improvement over conventional glucocorticoids. In your answer, discuss the preclinical evidence for enhanced anti-inflammatory efficacy and bone-sparing properties, the proposed mechanisms of action, and any remaining concerns that would need to be addressed before clinical development could proceed. (20 marks)
+
+*Marking criteria:*
+
+- *Enhanced efficacy evidence (5 marks): ED₅₀ comparisons in peritonitis, intravital microscopy data, chronic model efficacy (arthritis, air pouch), oral bioavailability*
+- *Bone-sparing evidence (5 marks): osteoclast assays, ODQ/NCX-1016 controls, pyridinoline data, mechanism (NO-cGMP)*
+- *Mechanistic understanding (5 marks): three mechanisms — additive anti-inflammatory, functional antagonism (bone protection), direct GR modification (HSP dissociation, tyrosine nitration, enhanced nuclear translocation)*
+- *Critical evaluation and limitations (5 marks): HPA axis suppression still present (corticosterone data), elevated creatinine and cholesterol, species translation concerns, absence of clinical data, potential NO-related effects (vasodilation, interactions), need for formal toxicology/ADMET, manufacturing considerations. Credit for discussing the drug discovery pipeline context and realistic assessment of clinical translation probability.*

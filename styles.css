@@ -1,0 +1,66 @@
+/* NTU-inspired colour scheme */
+:root {
+  --ntu-purple: #4a1486;
+  --ntu-purple-light: #6b3fa0;
+  --ntu-gold: #c4a000;
+  --ntu-dark: #1a1a2e;
+}
+
+.navbar {
+  background-color: var(--ntu-purple) !important;
+}
+
+h1, h2, h3 {
+  color: var(--ntu-purple);
+}
+
+.callout-note {
+  border-left-color: var(--ntu-purple);
+}
+
+.callout-important {
+  border-left-color: #cc0000;
+}
+
+.callout-tip {
+  border-left-color: var(--ntu-gold);
+}
+
+/* Card styling for home page */
+.lecture-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+  background: white;
+}
+
+.lecture-card:hover {
+  box-shadow: 0 4px 12px rgba(74, 20, 134, 0.15);
+}
+
+.lecture-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+/* Clinical features table styling */
+.clinical-table td {
+  padding: 0.4rem 0.8rem;
+}
+
+/* Assessment question styling */
+.question-box {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin: 1rem 0;
+}
+
+.question-box summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--ntu-purple);
+}

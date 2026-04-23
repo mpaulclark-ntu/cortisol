@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "docs/**"
+
+website:
+  title: "Cortisol: Physiology and Pathophysiology"
+  description: "Physiology, pathophysiology, and drug discovery"
+  repo-url: https://github.com/mpaulclark-ntu/cortisol
+  repo-actions: [issue]
+  navbar:
+    background: "#4a1486"
+    foreground: white
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Lectures"
+        menu:
+          - text: "Full Lecture (Slides)"
+            href: lectures/cortisol-full.qmd
+          - text: "---"
+          - text: "Part 1: Endocrine & GR Signalling"
+            href: lectures/01-endocrine-gr-signalling.qmd
+          - text: "Part 2: Physiological Actions"
+            href: lectures/02-physiological-actions.qmd
+          - text: "Part 3: Pathophysiology"
+            href: lectures/03-pathophysiology.qmd
+          - text: "Part 4: NCX-1015 Drug Discovery"
+            href: lectures/04-ncx1015-discovery.qmd
+          - text: "Part 5: Drug Discovery Process"
+            href: lectures/05-drug-discovery-process.qmd
+      - text: "Support Materials"
+        href: support-materials.qmd
+      - text: "Assessment"
+        href: lectures/assessment-questions.qmd
+      - text: "Resources"
+        href: resources.qmd
+  page-footer:
+    center: "Dr Mark Paul-Clark | Nottingham Trent University | Senior Lecturer in Pharmacology"
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: true

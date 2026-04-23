@@ -1,0 +1,207 @@
+---
+title: "The Drug Discovery Process"
+subtitle: "Unit 5, Part 5 — BIOL09044 Inflammation & Cancer"
+author: "Dr Mark Paul-Clark"
+institute: "Nottingham Trent University"
+format:
+  revealjs:
+    theme: [default, ../styles-slides.scss]
+    slide-number: true
+    progress: true
+    transition: fade
+    chalkboard: true
+    footer: "Unit 5: Cortisol | NTU"
+---
+
+## Drug Discovery: Context
+
+NCX-1015 provides us with a real-world case study to understand the drug discovery pipeline.
+
+Where does NCX-1015 sit?
+
+- ✅ Target identification (GR / inflammation)
+- ✅ Target validation (known GC pharmacology)
+- ✅ Lead identification & optimisation (10 compounds → NCX-1015)
+- ✅ Preclinical testing (in vitro + in vivo models)
+- ❓ Clinical candidate selection
+- ❓ Clinical trials
+
+---
+
+## The Drug Discovery Cycle
+
+### Core Iterative Loop
+
+```{mermaid}
+%%| fig-width: 9
+flowchart TD
+    A[Collection of<br/>Compounds] --> B[Primary Assays<br/>In Vitro]
+    B --> C[SAR &<br/>Lead Selection]
+    C --> D[Chemical<br/>Synthesis]
+    D --> B
+    B --> E[Secondary Assays<br/>Metabolism In Vivo]
+    C --> F[Characterisation<br/>Ligand Complex]
+    F --> D
+    E --> G[Clinical<br/>Candidate]
+    
+    style A fill:#2980b9,color:#fff
+    style B fill:#2980b9,color:#fff
+    style C fill:#e74c3c,color:#fff
+    style D fill:#e74c3c,color:#fff
+    style E fill:#7f8c8d,color:#fff
+    style G fill:#f39c12,color:#000
+```
+
+**SAR** = Structure-Activity Relationship
+
+The cycle is iterative — compounds are continuously refined based on pharmacological and metabolic data.
+
+---
+
+## Traditional Drug Discovery Timeline
+
+| Stage | Duration | Cumulative |
+|-------|----------|-----------|
+| Target Identification | 0.5–1 year | ~1 year |
+| Target Validation | 0.5–1 year | ~2 years |
+| Lead Identification | 0.5–1 year | ~3 years |
+| Candidate Optimisation | 2–3 years | ~5–6 years |
+| Pre-Clinical Studies | 1–2 years | ~7–8 years |
+| Clinical Trials | 4–6 years | **~12–14 years** |
+
+::: {.callout-important}
+The traditional pipeline from target to market takes **12–14 years** on average.
+:::
+
+---
+
+## Drug Reprofiling: A Shortcut
+
+### SWITCH Drug Re-Profiling Approach
+
+Instead of starting from scratch:
+
+1. Begin at **Lead Identification** stage with an existing known compound
+2. Use **data mining** of existing pharmacological, safety, and clinical data
+3. Skip target identification, validation, and much of preclinical work
+4. Move directly to **Clinical Proof of Concept** trials
+
+**Timeline:** 0.5–1 year (data mining) → Clinical trial
+
+::: {.callout-tip}
+NCX-1015 is essentially a **reprofiling strategy** — starting with a known drug (prednisolone) and chemically modifying it to improve the therapeutic profile while leveraging existing knowledge of GC pharmacology.
+:::
+
+---
+
+## The Attrition Funnel
+
+### From 10,000 Compounds to 1 Approved Drug
+
+| Step | Stage | Purpose |
+|------|-------|---------|
+| 1 | Discovery & Screening | High-throughput screening, target validation |
+| 2 | Lead Optimisation | Combinatorial chemistry, structure-based design |
+| 3 | ADMET | Absorption, distribution, metabolism, excretion, toxicity |
+| 4 | Clinical Trials | Phases I–III |
+| 5 | NDA Approved | Regulatory submission |
+
+**10,000–20,000** candidate compounds enter the pipeline.
+
+**1** drug reaches the market.
+
+::: {.callout-warning}
+The success rate is approximately **0.005–0.01%** — making drug discovery one of the highest-risk, highest-investment endeavours in science.
+:::
+
+---
+
+## Financial Burden {.smaller}
+
+### Capitalised Costs by Stage (US$ millions)
+
+| Stage | Cost | Duration | Attrition (%) | Programs |
+|-------|------|----------|---------------|----------|
+| Target validation & lead | $674M | 4.5 years | 49% | 24.3 |
+| Pre-clinical (lead) | — | 1.0 year | 31% | 12.4 |
+| Phase I | $273M | 1.5 years | 36% | 8.6 |
+| Phase II | $319M | 2.5 years | 56% | 4.6 |
+| Phase III | $314M | 2.5 years | 30% | 1.6 |
+| Submission | $48M | 1.5 years | 9% | 1.1 → **1** |
+
+### The "Valley of Death"
+The transition from pre-clinical to Phase I is called the **translation gap** or "valley of death" — where many promising preclinical findings fail to translate to human efficacy.
+
+---
+
+## Why Do So Many Products Fail?
+
+### Key Reasons for Attrition
+
+- **Lack of efficacy** in humans (despite preclinical success)
+- **Toxicity** not predicted by animal models
+- **Poor pharmacokinetics** (ADMET failures)
+- **Commercial viability** reassessment
+- **Manufacturing** challenges at scale
+
+### The Academic–Industry Interface
+
+Drug discovery increasingly relies on collaboration between:
+
+- **Academic researchers** (target identification, biological mechanism, animal models)
+- **Academic drug discovery institutes** (HTS, medicinal chemistry, lead optimisation)
+- **Industry partners** (ADMET, scale-up, clinical trials)
+- Supported by federal funding, foundations, and philanthropic groups
+
+---
+
+## NCX-1015: Where in the Pipeline?
+
+Mapping our case study to the drug discovery stages:
+
+| Stage | NCX-1015 Status |
+|-------|----------------|
+| Target identification | ✅ GR / inflammation pathway |
+| Target validation | ✅ Extensive GC literature |
+| Lead identification | ✅ 10 compounds screened (SAR) |
+| Lead optimisation | ✅ NCX-1015 selected |
+| Preclinical — in vitro | ✅ GR binding, NO release, CD163, IL-1β |
+| Preclinical — in vivo (acute) | ✅ Peritonitis, intravital microscopy |
+| Preclinical — in vivo (chronic) | ✅ Arthritis, air pouch |
+| Bone safety | ✅ Osteoclast assays, pyridinoline |
+| Oral bioavailability | ✅ Demonstrated |
+| Clinical candidate | ❓ Further PK/tox studies needed |
+| Clinical trials | ❌ Not yet entered |
+
+---
+
+## Summary: Part 5
+
+:::{.incremental}
+- The drug discovery pipeline spans **12–14 years** from target to market
+- Only **1 in 10,000–20,000** compounds reaches approval
+- Total capitalised cost exceeds **$1.6 billion** per approved drug
+- The **translation gap** (valley of death) between preclinical and clinical stages is where most programmes fail
+- **Drug reprofiling** offers a faster, cheaper route by leveraging existing compound data
+- NCX-1015 represents a successful **preclinical drug discovery programme** that addressed a genuine clinical unmet need
+- The compound demonstrates how **academic–industry collaboration** drives innovation
+:::
+
+---
+
+## Self-Assessment
+
+<details>
+<summary>**Q1:** At what stage does the highest probability of attrition occur in the drug discovery pipeline, and why?</summary>
+**Phase II clinical trials** have the highest attrition rate at **56%**. This is because Phase II is the first time a compound is tested for **efficacy** in the target patient population. Many compounds that show promise in preclinical models and are safe in Phase I (healthy volunteers) fail to demonstrate sufficient therapeutic benefit in actual patients — the translation gap.
+</details>
+
+<details>
+<summary>**Q2:** How does NCX-1015 exemplify a drug reprofiling approach?</summary>
+NCX-1015 starts with **prednisolone**, a well-established drug with decades of clinical data on efficacy, safety, pharmacokinetics, and side effects. Rather than discovering an entirely new compound, the researchers **chemically modified** an existing drug to improve its therapeutic profile. This leverages existing GC knowledge, bypasses early target identification/validation stages, and accelerates the path to clinical testing.
+</details>
+
+<details>
+<summary>**Q3:** What additional studies would NCX-1015 need before entering Phase I clinical trials?</summary>
+Key studies would include: formal **toxicology** (acute and chronic, in two species), detailed **pharmacokinetics** (absorption, distribution, metabolism, excretion), **reproductive toxicology**, **genotoxicity** assessment, **GMP-grade manufacturing** process development, and preparation of an **Investigational New Drug (IND)** application or equivalent regulatory submission.
+</details>

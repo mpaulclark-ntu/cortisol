@@ -1,0 +1,382 @@
+---
+title: "Cortisol: From Physiology to Drug Discovery"
+subtitle: "Unit 5 — BIOL09044 Inflammation & Cancer (Complete Lecture)"
+author: "Dr Mark Paul-Clark"
+institute: "Nottingham Trent University"
+format:
+  revealjs:
+    theme: [default, ../styles-slides.scss]
+    slide-number: true
+    progress: true
+    hash: true
+    transition: fade
+    chalkboard: true
+    overview: true
+    touch: true
+    footer: "Unit 5: Cortisol | NTU"
+---
+
+# Part 1: Endocrine System & GR Signalling {background-color="#4a1486"}
+
+---
+
+## Unit Overview
+
+- **Endocrine system revision** & cell signalling
+- **Molecular actions of steroids** & GR receptor complex
+- **Physiological actions of cortisol** & pathophysiology
+- **Glucocorticoid drug discovery** — NCX-1015
+- **Drug discovery process** — pipeline, costs, and challenges
+
+---
+
+## Peptide vs Steroid Hormone Signalling
+
+:::: {.columns}
+::: {.column width="50%"}
+### Peptide Hormones
+- Hydrophilic — cell surface receptors
+- Rapid actions (seconds–minutes)
+- Second messengers: cAMP, IP₃/DAG, tyrosine kinase
+:::
+::: {.column width="50%"}
+### Steroid Hormones
+- Lipophilic — intracellular receptors
+- Slower actions (hours–days)
+- Genomic: transactivation & transrepression
+:::
+::::
+
+---
+
+## The HPA Axis
+
+```{mermaid}
+%%| fig-width: 8
+flowchart TD
+    A[Hypothalamus] -->|CRH| B[Anterior Pituitary]
+    B -->|ACTH| C[Adrenal Cortex<br/>Zona Fasciculata]
+    C -->|Cortisol| D[Target Tissues]
+    D -.->|Negative Feedback| A
+    D -.->|Negative Feedback| B
+    style A fill:#4a1486,color:#fff
+    style B fill:#6b3fa0,color:#fff
+    style C fill:#c4a000,color:#000
+    style D fill:#2d6a4f,color:#fff
+```
+
+---
+
+## Cortisol Transport
+
+| Fraction | Percentage | Binding Partner |
+|----------|-----------|-----------------|
+| CBG-bound | ~80% | Cortisol-binding globulin |
+| Albumin-bound | ~15% | Serum albumin |
+| **Free (active)** | **~5%** | Unbound |
+
+Only free cortisol crosses membranes to bind the GR.
+
+---
+
+## The GR Complex: Inactive State
+
+- **HSP90** (×2) — maintains conformation
+- **HSP70** — assists folding
+- **Immunophilins** (FKBP51/52)
+- **p23** — stabilises HSP90–GR
+
+### Upon Ligand Binding:
+1. Cortisol binds → 2. HSPs dissociate → 3. GR dimerises → 4. Nuclear translocation → 5. GRE binding
+
+---
+
+## Transactivation vs Transrepression
+
+:::: {.columns}
+::: {.column width="50%"}
+### Transactivation
+GR dimers → GRE binding → upregulate:
+
+- Annexin-1, IκBα, MKP-1, IL-10, SLPI
+- → **Anti-inflammatory genes**
+:::
+::: {.column width="50%"}
+### Transrepression
+GR monomers → protein–protein interaction → suppress:
+
+- **NF-κB** → TNFα, IL-1β, IL-6, COX-2
+- **AP-1** → MMPs
+- → **Pro-inflammatory mediator suppression**
+:::
+::::
+
+# Part 2: Physiological Actions {background-color="#4a1486"}
+
+---
+
+## Metabolic Effects
+
+### Carbohydrate
+- ↑ Hepatic gluconeogenesis, ↓ peripheral glucose uptake → **raised blood glucose**
+
+### Protein
+- ↑ Catabolism → muscle wasting, skin thinning
+
+### Lipid
+- Lipolysis (extremities) + lipogenesis (trunk) → **centripetal fat redistribution**
+
+---
+
+## Immune & Inflammatory Actions
+
+:::: {.columns}
+::: {.column width="50%"}
+### Anti-inflammatory
+- Inhibits PLA₂ (via annexin-1)
+- Suppresses COX-2, iNOS
+- Reduces cytokines (IL-1β, TNFα, IL-6)
+- Decreases vascular permeability
+- Inhibits leukocyte adhesion/emigration
+:::
+::: {.column width="50%"}
+### Immunosuppressive
+- ↓ Lymphocytes, monocytes, eosinophils
+- ↑ Neutrophils (demargination)
+- Inhibits T-cell proliferation
+- Suppresses antibody production
+- Promotes lymphocyte apoptosis
+:::
+::::
+
+---
+
+## Cardiovascular & Bone Effects
+
+### Cardiovascular
+- Permissive effect on catecholamines
+- Na⁺ retention, K⁺ excretion → **hypertension**
+
+### Bone
+- ↓ Osteoblast function (reduced formation)
+- ↑ Osteoclast activity (increased resorption)
+- ↓ Ca²⁺ absorption and reabsorption → **osteoporosis**
+
+# Part 3: Pathophysiology {background-color="#4a1486"}
+
+---
+
+## Cushing's Syndrome
+
+**Cortisol excess** — 10–15 million worldwide
+
+### Causes
+- Iatrogenic (prolonged GC treatment)
+- Adrenal tumours
+- Pituitary adenoma (Cushing's disease)
+- Ectopic ACTH (SCLC, bronchial carcinoid, etc.)
+
+**Fatal if untreated; treatable with adrenalectomy + GC replacement**
+
+---
+
+## Clinical Features {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+- Obesity — **90%**
+- Hypertension — **85%**
+- Weakness — **85%**
+- Emotional lability — **85%**
+- Osteopenia — **80%**
+- Glucose intolerance — 75%
+- Hirsutism — 75%
+- Hyperlipidaemia — 70%
+:::
+::: {.column width="50%"}
+- Plethora — 70%
+- Striae — 50%
+- Kidney stones — 50%
+- Acne/bruising — 35%
+- Polyuria — 30%
+- Diabetes — 20%
+- Moon face, buffalo hump
+- Increased infection susceptibility
+:::
+::::
+
+---
+
+## Addison's Disease
+
+**Cortisol deficiency** — difficult to diagnose clinically
+
+### Primary Causes (hyperpigmentation present)
+- Autoimmune, TB, infections, metastatic cancer, adrenal haemorrhage
+
+### Secondary Causes (no hyperpigmentation)
+- Pituitary tumours, inflammation, surgery, **inappropriate GC withdrawal**
+
+### Addisonian Crisis ⚠️
+- Severe hypotension + hyperkalaemia — life-threatening
+
+---
+
+## Hyperpigmentation Mechanism
+
+```{mermaid}
+%%| fig-width: 8
+flowchart LR
+    A[↓ Cortisol] --> B[↓ Negative Feedback]
+    B --> C[↑ POMC Processing]
+    C --> D[↑ ACTH]
+    D --> E[Melanocortin<br/>Receptors]
+    E --> F[↑ Melanin]
+    style A fill:#cc0000,color:#fff
+    style F fill:#8B4513,color:#fff
+```
+
+Only in primary disease (elevated ACTH). Secondary = low ACTH = no pigmentation.
+
+# Part 4: NCX-1015 Discovery {background-color="#4a1486"}
+
+---
+
+## The Clinical Problem
+
+GCs = most effective anti-inflammatory drugs, BUT long-term side effects:
+
+- **Osteoporosis** ← key target
+- GI damage
+- HPA suppression
+- Hypertension
+- Immunosuppression
+
+**Can we maintain efficacy while sparing bone?**
+
+---
+
+## NCX-1015 Design
+
+**Prednisolone** (C₂₁H₂₈O₅, MW 360.4)
+
+→ Two-step synthesis →
+
+**NCX-1015** (C₂₉H₃₃NO₉, MW 539.59)
+
+- Prednisolone 21-[(4'-nitroxymethyl)benzoate]
+- NO-donating group at C-21 via ester bond
+- NO released by **esterase cleavage**
+
+---
+
+## NO Release: Confirmed In Vitro & In Vivo
+
+### In Vitro (PRP)
+- Time- and concentration-dependent nitrite + cGMP release
+- Esterase-dependent mechanism confirmed
+
+### In Vivo (Mouse Peritoneum)
+- Significant nitrite at 15, 30, 60 min (p≤0.05)
+- Prednisolone: negligible NO release
+
+---
+
+## GR Activity Retained & Enhanced
+
+- NCX-1015 increased **CD163 expression** with greater potency than prednisolone
+- Equivalent **IL-1β suppression**
+- Greater **HSP90 dissociation** → enhanced GR nuclear translocation
+- Evidence of **GR tyrosine nitration** — novel post-translational mechanism
+
+---
+
+## Acute Inflammation: ED₅₀ Comparison
+
+| Parameter | Prednisolone | NCX-1015 | Improvement |
+|-----------|-------------|----------|-------------|
+| PMN accumulation | 9.5 mg/kg | **2 mg/kg** | ~5× |
+| KC chemokine | >10 mg/kg | **2 mg/kg** | >5× |
+| iNOS/Nitrite | 8 mg/kg | **<0.5 mg/kg** | >16× |
+
+NCX-1015 up to **16-fold more potent** for iNOS suppression.
+
+---
+
+## Chronic Inflammation: Arthritis
+
+- Reduced **paw volume and clinical scores** (p<0.05)
+- Dramatically reduced **IL-1β** and **IL-6** (p<0.05)
+- Reduced **collagen II antibodies**
+- Effective **i.p. and orally**
+- Reduced **pyridinoline** (bone degradation marker) to healthy baseline
+
+---
+
+## Bone Sparing: The Key Result
+
+| Treatment (1 nM) | Osteoclast Resorption |
+|-------------------|-----------------------|
+| Prednisolone | **↑↑ ~175%** |
+| **NCX-1015** | **~100% (no increase)** |
+| Pred + NOC-18 (NO donor) | Rescued |
+| NCX-1015 + ODQ (GC inhibitor) | Protection abolished |
+| NCX-1016 (no NO group) | ↑ like prednisolone |
+
+**Mechanism: NO → guanylate cyclase → cGMP → osteoclast inhibition**
+
+---
+
+## Three Mechanisms of Action
+
+1. **Additive anti-inflammatory effects** — NO suppresses transcription factors, cytokines, leukocyte adhesion alongside GR actions
+2. **Functional antagonism** — NO via cGMP protects bone compartment against GC-induced osteoclast activation
+3. **Direct GR modification** — tyrosine nitration enhances HSP dissociation and GR signalling potency
+
+# Part 5: Drug Discovery Process {background-color="#4a1486"}
+
+---
+
+## The Pipeline
+
+| Stage | Duration |
+|-------|----------|
+| Target Identification | 0.5–1 year |
+| Target Validation | 0.5–1 year |
+| Lead Identification | 0.5–1 year |
+| Candidate Optimisation | 2–3 years |
+| Pre-Clinical | 1–2 years |
+| Clinical Trials | 4–6 years |
+| **Total** | **~12–14 years** |
+
+---
+
+## The Attrition Funnel
+
+**10,000–20,000** candidates → **1** approved drug
+
+### Costs per Stage (US$ millions)
+- Target validation/lead: $674M
+- Phase I: $273M | Phase II: $319M | Phase III: $314M
+
+**Phase II has the highest attrition (56%)** — the translation gap / "valley of death"
+
+---
+
+## Summary: Complete Lecture
+
+:::{.incremental}
+- Cortisol is regulated via the **HPA axis** with negative feedback
+- GR signalling involves **HSP dissociation → nuclear translocation → transactivation/transrepression**
+- Cortisol excess (**Cushing's**) and deficiency (**Addison's**) produce opposing clinical syndromes
+- NCX-1015 is a **NO-releasing prednisolone** that is more potent, orally active, and **bone-sparing**
+- The bone-sparing mechanism operates via **NO → cGMP → osteoclast inhibition**
+- Drug discovery takes **12–14 years**, costs **>$1.6 billion**, with **<0.01%** success rate
+- NCX-1015 exemplifies successful **academic–industry preclinical drug discovery**
+:::
+
+# Thank You {background-color="#4a1486"}
+
+### Questions?
+
+Dr Mark Paul-Clark | Nottingham Trent University

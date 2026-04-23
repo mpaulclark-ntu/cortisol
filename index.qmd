@@ -1,0 +1,67 @@
+---
+title: "Cortisol: Physiology and Pathophysiology"
+subtitle: "From HPA axis regulation to glucocorticoid drug discovery"
+---
+
+## Welcome
+
+This unit covers the biology of cortisol, from its regulation through the HPA axis and molecular actions at the glucocorticoid receptor, through to the pathological consequences of dysregulated cortisol production (Cushing's syndrome and Addison's disease), and concludes with a real-world case study in glucocorticoid drug discovery — the development of NCX-1015.
+
+## Learning Outcomes
+
+By the end of this unit, you should be able to:
+
+1. Describe the regulation of cortisol secretion via the HPA axis and the role of negative feedback
+2. Explain the molecular mechanism of glucocorticoid receptor activation, including the role of heat shock proteins and nuclear translocation
+3. Distinguish between the transactivation and transrepression mechanisms of glucocorticoid action
+4. Compare and contrast the pathophysiology, clinical features, and management of Cushing's syndrome and Addison's disease
+5. Evaluate the rationale for developing nitric oxide-releasing glucocorticoids (NCX-1015) and interpret preclinical efficacy data
+6. Outline the stages of the drug discovery pipeline and discuss the challenges of translating preclinical findings to clinical application
+
+## Lecture Content
+
+::: {.lecture-card}
+### [Part 1: Endocrine System & GR Signalling](lectures/01-endocrine-gr-signalling.qmd)
+HPA axis regulation, steroid vs peptide hormone signalling, glucocorticoid receptor complex, HSP dissociation, nuclear translocation, transactivation and transrepression.
+:::
+
+::: {.lecture-card}
+### [Part 2: Physiological Actions of Cortisol](lectures/02-physiological-actions.qmd)
+Metabolic effects (gluconeogenesis, protein catabolism, lipolysis), immunosuppression, cardiovascular actions, effects on bone metabolism.
+:::
+
+::: {.lecture-card}
+### [Part 3: Pathophysiology — Cushing's & Addison's](lectures/03-pathophysiology.qmd)
+Cushing's syndrome (causes, clinical features, treatment), Addison's disease (primary vs secondary insufficiency, POMC/melanocortin pathway, addisonian crisis).
+:::
+
+::: {.lecture-card}
+### [Part 4: NCX-1015 — Novel Glucocorticoid Discovery](lectures/04-ncx1015-discovery.qmd)
+Rationale for NO-releasing steroids, NCX-1015 synthesis, in vitro and in vivo anti-inflammatory efficacy, bone-sparing properties, mechanism of GR potentiation.
+:::
+
+::: {.lecture-card}
+### [Part 5: The Drug Discovery Process](lectures/05-drug-discovery-process.qmd)
+Drug discovery pipeline, timelines and costs, attrition rates, drug reprofiling, academic-industry collaboration.
+:::
+
+::: {.lecture-card}
+### [Full Lecture (Presentation Slides)](lectures/cortisol-full.qmd)
+Complete slide deck covering all content above in reveal.js format.
+:::
+
+::: {.lecture-card}
+### [📥 Support Materials](support-materials.qmd)
+Downloadable lecture slides, recommended reading, past exam papers, and practical guides.
+:::
+
+::: {.lecture-card}
+### [📝 Assessment Question Bank](lectures/assessment-questions.qmd)
+MCQs, short answer questions, and essay questions with model answers for revision.
+:::
+
+## Key Reading
+
+- Rhen T & Cidlowski JA (2005) *Antiinflammatory action of glucocorticoids — new mechanisms for old drugs.* NEJM 353: 1711–1723
+- Paul-Clark MJ *et al.* (2003) *NCX-1015, a novel derivative of prednisolone with enhanced anti-inflammatory activity in acute and chronic inflammation.* 
+- Baraldi PG *et al.* (2004) *Synthesis of nitro esters of prednisolone.* J Med Chem 47: 711–719

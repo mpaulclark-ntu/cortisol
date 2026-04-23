@@ -1,0 +1,158 @@
+---
+title: "Physiological Actions of Cortisol"
+subtitle: "Unit 5, Part 2 — BIOL09044 Inflammation & Cancer"
+author: "Dr Mark Paul-Clark"
+institute: "Nottingham Trent University"
+format:
+  revealjs:
+    theme: [default, ../styles-slides.scss]
+    slide-number: true
+    progress: true
+    transition: fade
+    chalkboard: true
+    footer: "Unit 5: Cortisol | NTU"
+---
+
+## Cortisol: A Pleiotropic Hormone
+
+Cortisol influences virtually every organ system. Its actions can be broadly categorised into:
+
+1. **Metabolic effects**
+2. **Immune and inflammatory modulation**
+3. **Cardiovascular actions**
+4. **Effects on bone and connective tissue**
+5. **CNS and behavioural effects**
+
+::: {.callout-note}
+Understanding these physiological roles is essential to appreciating both the therapeutic utility and the side effect profile of synthetic glucocorticoids.
+:::
+
+---
+
+## Metabolic Effects
+
+### Carbohydrate Metabolism
+- Stimulates **hepatic gluconeogenesis** (from amino acids and glycerol)
+- Reduces peripheral **glucose uptake** (insulin antagonism)
+- Increases **hepatic glycogen storage**
+- Net effect: **raised blood glucose**
+
+### Protein Metabolism
+- Promotes **protein catabolism** in muscle, skin, and connective tissue
+- Amino acids redirected to liver for gluconeogenesis
+- Results in **muscle wasting** and **skin thinning**
+
+### Lipid Metabolism
+- Stimulates **lipolysis** in extremities
+- Promotes **lipogenesis** in trunk, face, and interscapular region
+- Creates characteristic **centripetal fat redistribution**
+
+---
+
+## Immune and Inflammatory Actions
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Anti-inflammatory
+- Inhibits **phospholipase A₂** (via annexin-1) → reduced prostaglandin and leukotriene synthesis
+- Suppresses **COX-2** and **iNOS** expression
+- Reduces **cytokine production** (IL-1β, TNFα, IL-6)
+- Decreases **vascular permeability**
+- Inhibits **leukocyte adhesion** and emigration
+:::
+
+::: {.column width="50%"}
+### Immunosuppressive
+- Reduces circulating **lymphocytes, monocytes, and eosinophils**
+- Increases circulating **neutrophils** (demargination)
+- Inhibits **T-cell proliferation**
+- Suppresses **antibody production**
+- Promotes **apoptosis** of lymphocytes and eosinophils
+:::
+
+::::
+
+::: {.callout-important}
+These actions explain both the therapeutic utility of glucocorticoids in inflammatory disease AND the increased susceptibility to infection seen in Cushing's syndrome.
+:::
+
+---
+
+## Cardiovascular Effects
+
+- **Permissive effect** on catecholamines — enhances vascular sensitivity to noradrenaline and adrenaline
+- Promotes **sodium retention** and potassium excretion (mineralocorticoid cross-reactivity)
+- Increases **cardiac output**
+- Maintains **vascular tone**
+
+::: {.callout-warning}
+## Clinical Consequence
+Chronic cortisol excess leads to **hypertension** — seen in 85% of Cushing's syndrome patients — through combined effects on vascular reactivity and sodium/water retention.
+:::
+
+---
+
+## Effects on Bone and Connective Tissue
+
+### Bone
+- Inhibits **osteoblast** function (reduced bone formation)
+- Stimulates **osteoclast** activity (increased bone resorption)
+- Reduces **intestinal calcium absorption**
+- Decreases **renal calcium reabsorption**
+- Net effect: **osteoporosis** (80% of Cushing's patients)
+
+### Connective Tissue
+- Inhibits **fibroblast** proliferation
+- Reduces **collagen synthesis**
+- Results in: thin skin, poor wound healing, easy bruising, striae
+
+::: {.callout-tip}
+## Drug Discovery Link
+The bone-sparing properties of NCX-1015 (covered in Part 4) were specifically designed to address glucocorticoid-induced osteoporosis — one of the most significant limitations of chronic steroid therapy.
+:::
+
+---
+
+## CNS and Other Effects
+
+### Central Nervous System
+- Influences **mood, cognition, and behaviour**
+- Excess → euphoria, emotional lability, depression, psychosis (85% in Cushing's)
+- Deficiency → irritability, depression
+
+### Other Systems
+- **GI tract**: increased gastric acid secretion; GI complications especially with concurrent NSAID use
+- **Eyes**: chronic excess may cause posterior subcapsular cataracts and raised intraocular pressure
+- **Growth**: suppresses growth hormone secretion and linear growth in children
+
+---
+
+## Summary: Part 2
+
+:::{.incremental}
+- Cortisol has **wide-ranging physiological effects** across metabolism, immunity, cardiovascular function, and bone
+- Metabolic effects centre on **gluconeogenesis, protein catabolism, and fat redistribution**
+- Anti-inflammatory and immunosuppressive actions underpin the **therapeutic utility** of glucocorticoids
+- Effects on bone involve **dual impairment**: reduced formation and increased resorption
+- Understanding these physiological actions is essential for predicting both **therapeutic benefits** and **adverse effects** of glucocorticoid therapy
+:::
+
+---
+
+## Self-Assessment
+
+<details>
+<summary>**Q1:** Explain why glucocorticoid excess causes centripetal obesity rather than generalised weight gain.</summary>
+Cortisol simultaneously stimulates **lipolysis in the extremities** and **lipogenesis in the trunk, face, and interscapular region**. This differential effect produces the characteristic redistribution of fat centrally (truncal obesity, moon face, buffalo hump) with thin extremities.
+</details>
+
+<details>
+<summary>**Q2:** Why does chronic glucocorticoid use increase infection risk?</summary>
+Glucocorticoids reduce circulating **lymphocytes, monocytes, and eosinophils**, inhibit **T-cell proliferation** and **antibody production**, suppress **cytokine synthesis**, and inhibit **leukocyte emigration** to sites of infection. This broad immunosuppression compromises both innate and adaptive immune responses.
+</details>
+
+<details>
+<summary>**Q3:** Through what mechanisms do glucocorticoids cause osteoporosis?</summary>
+Glucocorticoids impair bone homeostasis through multiple mechanisms: **inhibition of osteoblasts** (reduced formation), **stimulation of osteoclasts** (increased resorption), **reduced intestinal calcium absorption**, and **increased renal calcium excretion**. The net result is progressive bone loss.
+</details>

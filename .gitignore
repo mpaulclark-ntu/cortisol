@@ -1,0 +1,10 @@
+/.quarto/
+/_site/
+.DS_Store
+*.swp
+*~
+*.zip
+.Rhistory
+docs/exams/
+
+**/*.quarto_ipynb

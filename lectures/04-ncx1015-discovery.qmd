@@ -1,0 +1,505 @@
+---
+title: "NCX-1015: A Novel Nitric Oxide-Releasing Glucocorticoid"
+subtitle: "Unit 5, Part 4 — BIOL09044 Inflammation & Cancer"
+author: "Dr Mark Paul-Clark"
+institute: "Nottingham Trent University"
+format:
+  revealjs:
+    theme: [default, ../styles-slides.scss]
+    slide-number: true
+    progress: true
+    transition: fade
+    chalkboard: true
+    footer: "Unit 5: Cortisol | NTU"
+---
+
+## The Clinical Problem
+
+Synthetic glucocorticoids are the **most effective anti-inflammatory drugs** available, used in RA, asthma, and cancer.
+
+However, long-term therapy causes serious side effects:
+
+- **Bone metabolism** → Osteoporosis
+- **GI tract** damage (especially with NSAIDs)
+- **HPA axis suppression** (adrenal atrophy)
+- **Hypertension**
+- **Immunosuppression** → increased infection risk
+
+::: {.callout-important}
+## The Question
+Can we design a glucocorticoid that **maintains anti-inflammatory efficacy** but **eliminates bone-damaging side effects**?
+:::
+
+---
+
+## The Research Collaboration
+
+This work was a collaboration between two research groups:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### NicOx Research Institute
+Bresso, Milan, Italy
+
+- Specialists in **nitric oxide (NO) pharmacology**
+- Expertise in NO-releasing compound synthesis
+:::
+
+::: {.column width="50%"}
+### William Harvey Research Institute
+London, UK
+
+- Expertise in **inflammation biology**
+- Glucocorticoid pharmacology
+- In vivo models of acute and chronic inflammation
+:::
+
+::::
+
+**Published:** Paul-Clark MJ, Mancini L, Lim LHK, Burgaud J-L, Del Soldato P, Flower RJ & Perretti M
+
+---
+
+## Study Aims
+
+1. **Synthesise** the novel compound NCX-1015 (prednisolone 21-[(4'-nitroxymethyl)benzoate])
+
+2. Assess **NO release** from NCX-1015 by esterases in platelet-rich plasma (*in vitro*) and the peritoneal cavity (*in vivo*)
+
+3. Test anti-inflammatory effects in a **complement-mediated acute peritoneal inflammation** model
+
+4. Assess effects on **leukocyte rolling, adhesion and emigration** in the mesenteric microvasculature
+
+5. Evaluate efficacy in a **chronic inflammation** model: collagen II-induced arthritis
+
+---
+
+## The Key Questions
+
+For NCX-1015 to succeed as a drug candidate, it must demonstrate:
+
+- ✅ **Maintained anti-inflammatory activity** (at least equivalent to prednisolone)
+- ✅ **Better profile of effect** (improved potency or broader actions)
+- ✅ **No detrimental effect on bone**
+- ✅ **Acceptable side effect profile** (HPA axis, GI, etc.)
+
+---
+
+## NCX-1015 Synthesis
+
+### Two-Step Reaction
+
+**Step 1:** Prednisolone (C₂₁H₂₈O₅, MW 360.4)
+
+→ reacted with 4-(chloromethyl)benzoyl chloride + triethylamine (24h)
+
+→ Prednisolone 21-(4'-chlorobenzoate)
+
+**Step 2:** Intermediate compound
+
+→ reacted with silver nitrite + acetonitrile + tetrahydrofuran (35h, dark)
+
+→ **NCX-1015** (C₂₉H₃₃NO₉, MW 539.59)
+
+::: {.callout-note}
+The NO-donating nitroxymethyl group is attached via an ester bond at the C-21 position, allowing **esterase-mediated NO release** in biological systems.
+:::
+
+---
+
+## SAR: Modified NO-Prednisolone Compounds
+
+Ten nitro-ester derivatives of prednisolone were synthesised and tested for:
+
+- **GR binding** (displacement of [³H]-dexamethasone)
+- **Aqueous solubility**
+
+### Key Findings
+
+| Compound | GR Binding (% displacement) | Solubility (mM) |
+|----------|---------------------------|-----------------|
+| 1 (parent) | 56% | 0.27 |
+| **5 (NCX-1015)** | **47%** | **0.007** |
+| 6 | 86% | 0.71 |
+| 8 | 66% | 21.3 |
+| 9 | 83% | 53.3 |
+
+NCX-1015 retained meaningful GR binding while incorporating the NO-releasing moiety.
+
+---
+
+## In Vitro: NO Release from NCX-1015
+
+### Time-Dependent Release in Platelet-Rich Plasma
+
+- NCX-1015 released nitrite in a **time-dependent** manner over 60 minutes
+- SNP (sodium nitroprusside) served as positive control
+- Prednisolone alone showed **no NO release**
+
+### Concentration-Dependent Release
+
+- NCX-1015 produced concentration-dependent increases in both:
+  - **Nitrite** levels (significant at 100–1000 µM, p≤0.05)
+  - **cGMP** in platelets (significant at 100–1000 µM, p≤0.05)
+- Prednisolone produced **neither response**
+
+::: {.callout-tip}
+The esterase-dependent mechanism was confirmed: NCX-1015 + esterase dramatically increased NO release, while prednisolone ± esterase had no effect.
+:::
+
+---
+
+## In Vivo: NO Release in the Peritoneum
+
+### Mouse Peritoneal Cavity
+
+- NCX-1015 (5 and 10 mg/kg) produced **significant time-dependent nitrite release** at 15, 30, and 60 minutes (p≤0.05)
+- Prednisolone (10 mg/kg) showed **negligible NO release**
+- Dose-dependent: 10 mg/kg NCX-1015 > 5 mg/kg
+
+::: {.callout-note}
+This confirmed that NCX-1015 releases NO through **biological esterase activity** both in vitro and in vivo, validating the compound design.
+:::
+
+---
+
+## GR-Dependent Effects: CD163 and IL-1β
+
+### Methods
+- Human PBMCs isolated by Ficoll-Hypaque density gradient
+- Pre-incubated with prednisolone or NCX-1015 (10⁻⁵ to 10⁻¹⁰ M)
+
+### Results
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### CD163 Expression (FACS)
+- Both compounds increased CD163 in a concentration-dependent manner
+- NCX-1015 showed **greater potency** than prednisolone at 10⁻⁷ to 10⁻⁶ M
+:::
+
+::: {.column width="50%"}
+#### IL-1β Suppression (LPS-stimulated)
+- Both compounds reduced IL-1β production
+- NCX-1015 was **at least as effective** as prednisolone
+- Significant reduction from 10⁻⁸ M onwards
+:::
+
+::::
+
+::: {.callout-important}
+NCX-1015 retains full glucocorticoid receptor-dependent activity while also releasing NO — a true **dual-action compound**.
+:::
+
+---
+
+## Nuclear Localisation of GR
+
+### HSP90 Dissociation
+- NCX-1015 caused **significantly greater dissociation** of HSP90 from the GR compared to prednisolone (p<0.05)
+- Demonstrated by co-immunoprecipitation and western blotting
+
+### Immunofluorescence Microscopy
+- NCX-1015 promoted **enhanced GR nuclear translocation** at 30 minutes post-treatment
+- Prednisolone and NCX-1016 (lacking NO) showed less pronounced nuclear GR staining
+
+::: {.callout-tip}
+This suggests the NO component of NCX-1015 actively **potentiates GR signalling** rather than simply adding a parallel anti-inflammatory mechanism.
+:::
+
+---
+
+## Acute Inflammation: Zymosan Peritonitis
+
+### Methods
+- Prednisolone and NCX-1015 (0.5–10 mg/kg i.p.) administered 1h before zymosan (1 mg/mouse i.p.)
+- Peritoneal lavage at 4h; measured: PMN counts, KC, PGE₂, nitrite, iNOS, IL-1
+
+### Results — ED₅₀ Comparison
+
+| Parameter | Prednisolone ED₅₀ | NCX-1015 ED₅₀ | Fold improvement |
+|-----------|-------------------|---------------|-----------------|
+| PMN accumulation | 9.5 mg/kg | **2 mg/kg** | ~5× |
+| KC (chemokine) | >10 mg/kg | **2 mg/kg** | >5× |
+| iNOS/Nitrite | 8 mg/kg | **<0.5 mg/kg** | >16× |
+| IL-1β | — | Comparable | — |
+| PGE₂ | 4.5 mg/kg | 5 mg/kg | Similar |
+
+::: {.callout-important}
+NCX-1015 was **up to 16-fold more potent** than prednisolone for suppressing iNOS-derived NO production in acute inflammation.
+:::
+
+---
+
+## NCX-1015 vs NCX-1016: Role of NO
+
+### NCX-1016 = prednisolone derivative **lacking** the NO group
+
+At 5 mg/kg in zymosan peritonitis:
+
+- **Prednisolone**: reduced PMN to ~10 × 10⁶
+- **NCX-1015**: reduced PMN to ~6 × 10⁶ *(p<0.05 vs pred)*
+- **NCX-1016**: reduced PMN to ~10 × 10⁶ (same as prednisolone)
+- **NCX-1016 + NOC-18** (NO donor): reduced PMN to ~7 × 10⁶ *(p<0.05 vs pred)*
+
+::: {.callout-tip}
+## Key Conclusion
+The enhanced anti-inflammatory effect of NCX-1015 is **specifically attributable to NO release**, as confirmed by the comparable performance of NCX-1016 + exogenous NO donor.
+:::
+
+---
+
+## Intravital Microscopy: Leukocyte–Endothelial Interactions
+
+### Methods
+- IL-1β (10 ng/mouse i.p.) to induce inflammation
+- Prednisolone (5 mg/kg) or NCX-1015 (**0.5 mg/kg** — 10× lower dose)
+- Mesenteric microvasculature visualised; measured rolling velocity, adhesion, emigration
+
+### Results (vs vehicle control, IL-1β-stimulated)
+
+| Parameter | Prednisolone (5 mg/kg) | NCX-1015 (0.5 mg/kg) |
+|-----------|----------------------|---------------------|
+| WBC velocity | No significant change | Maintained near saline |
+| Adherent leukocytes | Trend to decrease | **Significant reduction*** |
+| Emigrated leukocytes | Elevated | **Significant reduction*** |
+
+*p≤0.05 vs vehicle control
+
+::: {.callout-important}
+NCX-1015 at **one-tenth the dose** of prednisolone produced **superior inhibition** of leukocyte adhesion and emigration.
+:::
+
+---
+
+## Chronic Inflammation: Air Pouch Model
+
+### Croton Oil-Induced Granulomatous Air Pouch
+
+- Daily treatment (day 3–14) with prednisolone (5 mg/kg) or NCX-1015 (5 mg/kg)
+- Measured: granuloma dry weight, carmine content (vascularity), vascular index
+
+### Results
+- Both compounds reduced **granuloma weight** at days 3 and 7
+- Both reduced **carmine content** (indicating reduced angiogenesis)
+- NCX-1015 showed a **significantly higher vascular index** at day 14 (p<0.05)
+- NCX-1015 at equimolar doses was **at least as effective** as prednisolone in chronic inflammation
+
+---
+
+## Chronic Inflammation: Collagen II-Induced Arthritis {.smaller}
+
+### Methods
+- Bovine collagen II/Freund's incomplete adjuvant injected intradermally in rats
+- Treatment: prednisolone or NCX-1015 (0.21 and 2.1 mg/kg) i.p. daily (d14–18)
+- Also tested oral dosing (p.o., d14–21)
+
+### Key Results
+
+- NCX-1015 (2.1 mg/kg) significantly **reduced paw volume and clinical scores** (p<0.05 vs control)
+- NCX-1015 dramatically reduced serum **IL-1β** (to near-untreated levels) and **IL-6** (p<0.05)
+- Reduced **collagen II antibodies** (p<0.05 vs control)
+- **Effective via both i.p. and oral routes**
+- Prednisolone at equivalent doses showed **less consistent efficacy**
+
+---
+
+## Serum Biochemistry in Arthritis Model {.smaller}
+
+### NCX-1015 (2.1 mg/kg) showed notable effects:
+
+| Parameter | Direction | Significance |
+|-----------|-----------|-------------|
+| Albumin | **↑ restored** to untreated levels | p<0.05 |
+| Globulin | ↓ reduced | p<0.05 |
+| Corticosterone | **↓↓ suppressed** | p<0.05 (HPA axis effect) |
+| Creatinine | ↑ elevated | p<0.05 |
+| Cholesterol | ↑ elevated | p<0.05 |
+| Bilirubin | Trend ↑ | Not significant |
+
+::: {.callout-warning}
+The significant **corticosterone suppression** by NCX-1015 indicates HPA axis effects remain — an area requiring further investigation for clinical development.
+:::
+
+---
+
+## The Critical Question: Bone Sparing?
+
+### Primary Rat Osteoclast Bone Resorption Assay
+
+- Osteoclasts isolated from neonatal rat femora and tibiae
+- Cultured on calcium phosphate apatite (OAAS™) plates
+- Resorption pit area measured after 24h
+
+### Results
+
+| Treatment (1 nM) | Resorbed Area (% control) |
+|-------------------|--------------------------|
+| Vehicle | 100% |
+| **Prednisolone** | **~175%** (p<0.01) |
+| **NCX-1015** | **~100%** (not different from control) |
+| Prednisolone + NOC-18 | ~100% (rescued) |
+| NCX-1015 + ODQ | ~175% (protection abolished) |
+| NCX-1016 (no NO) | ~150% (p<0.05) |
+
+---
+
+## Mechanism of Bone Protection
+
+```{mermaid}
+%%| fig-width: 9
+flowchart LR
+    A[NCX-1015] --> B[Esterase<br/>Cleavage]
+    B --> C[Prednisolone<br/>+ NO]
+    C --> D[NO activates<br/>Guanylate Cyclase]
+    D --> E[↑ cGMP]
+    E --> F[Inhibits Osteoclast<br/>Activation]
+    
+    G[ODQ] -.->|Blocks| D
+    
+    style A fill:#4a1486,color:#fff
+    style E fill:#2d6a4f,color:#fff
+    style G fill:#cc0000,color:#fff
+```
+
+::: {.callout-important}
+## Proof of Mechanism
+- **NCX-1016** (lacking NO) → increased resorption like prednisolone
+- **Prednisolone + NOC-18** (NO donor) → rescued bone
+- **NCX-1015 + ODQ** (guanylate cyclase inhibitor) → protection abolished
+
+The bone-sparing effect is **specifically mediated by NO via the cGMP pathway**.
+:::
+
+---
+
+## Serum Pyridinoline: In Vivo Bone Protection
+
+### Pyridinoline = collagen cross-link released during bone degradation
+
+In the collagen II arthritis model:
+
+- **Control, prednisolone (both doses), NCX-1015 (0.21 mg/kg):** All elevated pyridinoline (~5.5 nmol/L) vs untreated (~3.5 nmol/L)
+- **NCX-1015 (2.1 mg/kg):** Pyridinoline **reduced to ~3.2 nmol/L** (p<0.05 vs control)
+
+::: {.callout-tip}
+This is the critical *in vivo* confirmation: while prednisolone **exacerbated** disease-associated bone degradation, NCX-1015 **prevented it** and restored pyridinoline to healthy baseline levels.
+:::
+
+---
+
+## GR Potentiation: Receptor Binding
+
+### NCX-1015 Increases GR Binding Capacity
+
+In both human PBMCs and U937 cells:
+
+- Prednisolone showed standard displacement of [³H]-dexamethasone
+- NCX-1015 at 10 µM showed **dramatically increased** GR binding (~90 fmol vs ~5 fmol for prednisolone)
+- Western blot confirmed **increased GR protein** following NCX-1015 treatment
+
+### This potentiation requires:
+- ✅ Protein synthesis (blocked by cycloheximide)
+- ✅ Cellular energy (blocked by sodium azide, deoxyglucose, DNP)
+- ✅ Guanylyl cyclase activity (blocked by ODQ)
+- ✅ GR itself (blocked by RU486)
+- ❌ NOT dependent on HSP90 ATPase (geldanamycin had no effect)
+
+---
+
+## HSP Dissociation: In Vitro and In Vivo
+
+### Co-Immunoprecipitation Results
+
+:::: {.columns}
+
+::: {.column width="50%"}
+#### PBMCs In Vitro
+- **HSP90/GR:** NCX-1015 caused rapid dissociation at 30 min (p<0.05), maintained at 2h
+- **HSP70/GR:** NCX-1015 dissociation at 30 min; prednisolone showed **increased** HSP70 association at 2h
+:::
+
+::: {.column width="50%"}
+#### Mouse Macrophages In Vivo
+- Same pattern confirmed in vivo
+- NCX-1015 (13.8 µmol/kg) produced **significantly greater HSP90 dissociation** than prednisolone at 30 min
+- HSP70 dissociation also greater with NCX-1015 at 2h
+:::
+
+::::
+
+::: {.callout-note}
+NCX-1015 promotes **more rapid and complete HSP dissociation**, facilitating enhanced GR nuclear translocation and signalling potency.
+:::
+
+---
+
+## GR Nitration: A Novel Mechanism
+
+### Tyrosine Nitration of GR
+
+**In vitro:** NCX-1015 (1–10 µM) caused concentration-dependent **tyrosine nitration** of the GR protein (~95 kDa band on immunoprecipitation + anti-nitrotyrosine blot)
+
+**In vivo:** GR nitration detected in peritoneal macrophages from mice treated with NCX-1015 (both i.p. and s.c. routes)
+
+::: {.callout-tip}
+## Novel Post-Translational Mechanism
+This suggests NO released from NCX-1015 directly **modifies the GR protein through tyrosine nitration**, potentially altering its conformation, HSP interactions, and transcriptional activity. This represents a unique mechanism not seen with conventional glucocorticoids.
+:::
+
+---
+
+## NCX-1015: Three Mechanisms of Action
+
+```{mermaid}
+%%| fig-width: 10
+flowchart TD
+    A[NCX-1015<br/>releases NO] --> B[Mechanism 1:<br/>Additive/Synergistic<br/>Anti-inflammatory]
+    A --> C[Mechanism 2:<br/>Functional Antagonism<br/>NO vs GC]
+    A --> D[Mechanism 3:<br/>Direct GR<br/>Modification]
+    
+    B --> B1[Suppresses transcription factors<br/>cytokines, leukocyte adhesion]
+    C --> C1[Protects bone compartment<br/>via cGMP pathway]
+    D --> D1[GR nitration → enhanced<br/>HSP dissociation → potentiated signalling]
+    
+    style A fill:#4a1486,color:#fff
+    style B fill:#2d6a4f,color:#fff
+    style C fill:#c4a000,color:#000
+    style D fill:#cc0000,color:#fff
+```
+
+---
+
+## Summary: NCX-1015
+
+:::{.incremental}
+- NCX-1015 is a **nitric oxide-releasing prednisolone derivative**
+- It releases NO through **esterase-mediated cleavage** both in vitro and in vivo
+- It demonstrates **enhanced anti-inflammatory potency** (up to 16× prednisolone for iNOS suppression)
+- The NO component provides a **bone-sparing effect** mediated through the cGMP pathway
+- NCX-1015 **potentiates GR signalling** through enhanced HSP dissociation and GR tyrosine nitration
+- It is effective in **acute** (peritonitis, intravital microscopy) and **chronic** (air pouch, collagen arthritis, gouty arthritis) inflammation models
+- It is **orally active**
+- It spares the **bone compartment** — the critical advantage over conventional glucocorticoids
+:::
+
+---
+
+## Self-Assessment
+
+<details>
+<summary>**Q1:** Why was NCX-1016 (the derivative without NO) an essential control in these studies?</summary>
+NCX-1016 allowed the researchers to determine whether the enhanced effects of NCX-1015 were due to the **structural modification** (ester linkage) or specifically to the **NO-releasing capability**. Since NCX-1016 behaved like prednisolone in both inflammation and bone assays, the enhanced effects of NCX-1015 could be confidently attributed to NO release.
+</details>
+
+<details>
+<summary>**Q2:** Explain how the ODQ experiment proves the mechanism of NCX-1015's bone-sparing effect.</summary>
+ODQ is a **guanylate cyclase inhibitor** that blocks the NO → cGMP signalling pathway. When ODQ was co-administered with NCX-1015, the bone-sparing effect was **abolished** — osteoclast resorption increased to prednisolone-like levels. This demonstrates that the protective effect requires **NO-mediated cGMP production**, not simply the structural modification of prednisolone.
+</details>
+
+<details>
+<summary>**Q3:** Based on the serum biochemistry data, what potential concern remains for NCX-1015 clinical development?</summary>
+NCX-1015 caused **significant corticosterone suppression**, indicating **HPA axis suppression** comparable to or exceeding that of prednisolone. Additionally, elevated **creatinine** and **cholesterol** were observed. While the bone-sparing and enhanced anti-inflammatory effects are advantageous, HPA axis suppression and potential metabolic effects would need to be carefully evaluated in clinical trials.
+</details>

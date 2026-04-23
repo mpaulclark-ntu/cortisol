@@ -1,0 +1,196 @@
+---
+title: "Endocrine System & Glucocorticoid Receptor Signalling"
+subtitle: "Unit 5, Part 1 — BIOL09044 Inflammation & Cancer"
+author: "Dr Mark Paul-Clark"
+institute: "Nottingham Trent University"
+format:
+  revealjs:
+    theme: [default, ../styles-slides.scss]
+    slide-number: true
+    progress: true
+    hash: true
+    transition: fade
+    preview-links: auto
+    #chalkboard: true
+    embed-resources: true
+    logo: ""
+    footer: "Unit 5: Cortisol | NTU"
+---
+
+## Unit Overview {.smaller}
+
+- **Endocrine system revision**
+  - Cell signalling revision
+- **Molecular actions of steroids**
+  - GR receptor complex
+- Physiological actions of cortisol
+  - Cortisol pathophysiology
+- Glucocorticoid drug discovery
+  - Drug discovery process
+
+::: {.notes}
+This first section covers the foundational endocrine and receptor biology needed to understand cortisol's actions.
+:::
+
+---
+
+## Peptide vs Steroid Hormone Signalling
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Peptide Hormones
+- Hydrophilic — cannot cross membranes
+- Bind **cell surface receptors**
+- Rapid actions (seconds–minutes)
+- Signal via second messengers:
+  - cAMP pathway
+  - IP₃/DAG pathway
+  - Tyrosine kinase cascades
+:::
+
+::: {.column width="50%"}
+### Steroid Hormones
+- Lipophilic — cross membranes freely
+- Bind **intracellular receptors**
+- Slower actions (hours–days)
+- Genomic regulation:
+  - Gene transactivation
+  - Gene transrepression
+:::
+
+::::
+
+::: {.callout-note}
+## Key Distinction
+Steroids act as transcription factors — their effects are primarily genomic, altering protein synthesis rather than activating pre-existing signalling cascades.
+:::
+
+---
+
+## The Hypothalamic-Pituitary-Adrenal (HPA) Axis
+
+```{mermaid}
+%%| fig-width: 8
+flowchart TD
+    A[Hypothalamus] -->|CRH| B[Anterior Pituitary]
+    B -->|ACTH| C[Adrenal Cortex<br/>Zona Fasciculata]
+    C -->|Cortisol| D[Target Tissues]
+    D -.->|Negative Feedback| A
+    D -.->|Negative Feedback| B
+    
+    style A fill:#4a1486,color:#fff
+    style B fill:#6b3fa0,color:#fff
+    style C fill:#c4a000,color:#000
+    style D fill:#2d6a4f,color:#fff
+```
+
+- **CRH**: Corticotropin-releasing hormone
+- **ACTH**: Adrenocorticotrophic hormone (derived from POMC)
+- Cortisol provides **negative feedback** at both hypothalamic and pituitary levels
+
+---
+
+## Cortisol Synthesis & Transport
+
+### Synthesis
+- Synthesised from **cholesterol** in the adrenal cortex zona fasciculata
+- Follows the steroidogenic pathway via pregnenolone intermediates
+
+### Circulating Cortisol
+| Fraction | Percentage | Binding Partner |
+|----------|-----------|-----------------|
+| CBG-bound | ~80% | Cortisol-binding globulin |
+| Albumin-bound | ~15% | Serum albumin |
+| **Free (active)** | **~5%** | Unbound |
+
+::: {.callout-important}
+Only the **free fraction** of cortisol is biologically active and able to cross cell membranes to bind the glucocorticoid receptor.
+:::
+
+---
+
+## The Glucocorticoid Receptor (GR) Complex
+
+### Inactive State
+The GR exists in a **multiprotein chaperone complex**:
+
+- **HSP90** (×2) — maintains receptor conformation and ligand-binding competence
+- **HSP70** — assists in receptor folding
+- **Immunophilins** (FKBP51/52) — regulate receptor maturation
+- **p23** — stabilises the HSP90–GR interaction
+
+### Upon Ligand Binding
+1. Cortisol binds the ligand-binding domain
+2. **HSP90 and HSP70 dissociate**
+3. GR undergoes conformational change
+4. Receptor **dimerises**
+5. Nuclear localisation signal exposed → **nuclear translocation**
+
+---
+
+## GR Mechanisms of Action
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Transactivation (GRE binding)
+GR dimers bind **glucocorticoid response elements** to upregulate:
+
+- Annexin-1 (lipocortin-1)
+- IκBα (NF-κB inhibitor)
+- MAPK phosphatase-1
+- IL-10
+- SLPI
+
+→ **Anti-inflammatory gene expression**
+:::
+
+::: {.column width="50%"}
+### Transrepression (protein–protein)
+GR monomers interact with transcription factors to suppress:
+
+- **NF-κB** → reduces TNFα, IL-1β, IL-6, COX-2, iNOS
+- **AP-1** → reduces MMPs, collagenase
+
+→ **Suppression of pro-inflammatory mediators**
+:::
+
+::::
+
+::: {.callout-tip}
+## Clinical Relevance
+The therapeutic anti-inflammatory effects of glucocorticoids are primarily attributed to **transrepression**, while many side effects arise from **transactivation**. This distinction drives the search for dissociated GR ligands.
+:::
+
+---
+
+## Summary: Part 1
+
+:::{.incremental}
+- Cortisol is regulated via the **HPA axis** with negative feedback
+- Only **free cortisol** (~5%) is biologically active
+- The GR exists in an **HSP90/70 chaperone complex** in the cytoplasm
+- Ligand binding triggers **HSP dissociation → dimerisation → nuclear translocation**
+- GR acts via **transactivation** (anti-inflammatory genes) and **transrepression** (pro-inflammatory transcription factors)
+- The transactivation/transrepression distinction is key to understanding both therapeutic effects and side effects
+:::
+
+---
+
+## Self-Assessment
+
+<details>
+<summary>**Q1:** Why can steroid hormones cross the cell membrane but peptide hormones cannot?</summary>
+Steroid hormones are **lipophilic** (derived from cholesterol), so they dissolve in and pass through the phospholipid bilayer. Peptide hormones are hydrophilic and require membrane-bound receptors.
+</details>
+
+<details>
+<summary>**Q2:** What would happen to cortisol levels if a patient had an ACTH-secreting pituitary adenoma?</summary>
+Cortisol levels would be **chronically elevated** because the adenoma produces ACTH autonomously, bypassing normal negative feedback regulation. This is one cause of Cushing's disease.
+</details>
+
+<details>
+<summary>**Q3:** Explain why the dissociation of HSP90 from the GR is essential for glucocorticoid signalling.</summary>
+HSP90 masks the nuclear localisation signal and prevents dimerisation. Its dissociation upon ligand binding allows the GR to **dimerise, translocate to the nucleus, and bind GREs** to regulate gene transcription.
+</details>

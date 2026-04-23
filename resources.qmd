@@ -1,0 +1,43 @@
+---
+title: "Resources"
+---
+
+## Key Reading
+
+### Core Papers
+- **Paul-Clark MJ** *et al.* (2003) NCX-1015, a novel derivative of prednisolone with enhanced anti-inflammatory activity in acute and chronic inflammation.
+- **Baraldi PG** *et al.* (2004) Synthesis of nitro esters of prednisolone, new compounds combining pharmacological properties of both glucocorticoids and nitric oxide. *J Med Chem* 47: 711–719.
+- **Rhen T & Cidlowski JA** (2005) Antiinflammatory action of glucocorticoids — new mechanisms for old drugs. *NEJM* 353: 1711–1723.
+
+### Reviews & Background
+- Oakley RH & Cidlowski JA (2013) The biology of the glucocorticoid receptor: new signaling mechanisms in health and disease. *J Allergy Clin Immunol* 132: 1033–1044.
+- Newell-Price J *et al.* (2006) Cushing's syndrome. *Lancet* 367: 1605–1617.
+- Husebye ES *et al.* (2021) Adrenal insufficiency. *Lancet* 397: 613–629.
+
+### Drug Discovery
+- Hughes JP *et al.* (2011) Principles of early drug discovery. *Br J Pharmacol* 162: 1239–1249.
+- Frail DE *et al.* (2015) Pioneering government-sponsored drug repositioning collaborations. *Nat Rev Drug Discov* 14: 833–841.
+
+## Glossary of Key Terms
+
+| Term | Definition |
+|------|-----------|
+| **HPA axis** | Hypothalamic-pituitary-adrenal axis; neuroendocrine system controlling cortisol secretion |
+| **GR** | Glucocorticoid receptor; nuclear receptor superfamily member |
+| **GRE** | Glucocorticoid response element; DNA sequence bound by GR dimers |
+| **HSP90/70** | Heat shock proteins; chaperones maintaining GR in ligand-binding competent state |
+| **Transactivation** | GR-mediated upregulation of anti-inflammatory gene expression |
+| **Transrepression** | GR-mediated suppression of pro-inflammatory transcription factors (NF-κB, AP-1) |
+| **POMC** | Pro-opiomelanocortin; precursor peptide yielding ACTH and melanocyte-stimulating hormones |
+| **NCX-1015** | Prednisolone 21-[(4'-nitroxymethyl)benzoate]; NO-releasing glucocorticoid |
+| **ED₅₀** | Effective dose producing 50% of maximal response |
+| **SAR** | Structure-activity relationship |
+| **ADMET** | Absorption, distribution, metabolism, excretion, toxicity |
+| **Pyridinoline** | Collagen cross-link; serum marker of bone degradation |
+
+## Links
+
+- [Nature Reviews Drug Discovery](https://www.nature.com/nrd/)
+- [British Pharmacological Society — Pharmacology Education](https://www.bps.ac.uk/education)
+- [Cushing's Support & Research Foundation](https://csrf.net/)
+- [Addison's Disease Self-Help Group (UK)](https://www.addisonsdisease.org.uk/)

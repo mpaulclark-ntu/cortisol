@@ -1,0 +1,268 @@
+---
+title: "Cortisol Pathophysiology"
+subtitle: "Unit 5, Part 3 — Cushing's Syndrome & Addison's Disease"
+author: "Dr Mark Paul-Clark"
+institute: "Nottingham Trent University"
+format:
+  revealjs:
+    theme: [default, ../styles-slides.scss]
+    slide-number: true
+    progress: true
+    transition: fade
+    chalkboard: true
+    footer: "Unit 5: Cortisol | NTU"
+---
+
+## Harvey William Cushing (1869–1939)
+
+- American neurosurgeon and endocrinologist
+- Pioneer of brain surgery techniques
+- First described the clinical syndrome of cortisol excess
+- Linked pituitary basophil adenomas to the constellation of symptoms now bearing his name
+
+---
+
+## Cushing's Syndrome: Overview
+
+**Definition:** Clinical syndrome resulting from **excessive exposure to glucocorticoids**
+
+**Prevalence:** 10–15 million sufferers worldwide
+
+### Three Major Causes
+
+| Cause | Mechanism |
+|-------|-----------|
+| **Iatrogenic** | Prolonged exogenous GC treatment |
+| **Adrenal tumour** | Autonomous cortisol secretion |
+| **Excess CRH/ACTH** | Pituitary adenoma or ectopic ACTH |
+
+::: {.callout-important}
+**Fatal if untreated** — but treatable with adrenalectomy and glucocorticoid replacement therapy.
+:::
+
+---
+
+## Three Major Endogenous Causes
+
+```{mermaid}
+%%| fig-width: 9
+flowchart TD
+    A[Cushing's Syndrome] --> B[Pituitary Adenoma<br/><i>Cushing's Disease</i>]
+    A --> C[Adrenal Tumour]
+    A --> D[Ectopic ACTH Syndrome]
+    
+    D --> E[Small cell lung carcinoma]
+    D --> F[Bronchial carcinoid]
+    D --> G[Thymic carcinoid/thymoma]
+    D --> H[Pancreatic islet cell tumours]
+    D --> I[Pheochromocytoma]
+    D --> J[Medullary carcinoma]
+    
+    style A fill:#cc0000,color:#fff
+    style B fill:#4a1486,color:#fff
+    style C fill:#4a1486,color:#fff
+    style D fill:#4a1486,color:#fff
+```
+
+::: {.callout-note}
+**Cushing's disease** specifically refers to the pituitary adenoma cause; **Cushing's syndrome** is the broader term for any cause of cortisol excess.
+:::
+
+---
+
+## Clinical Features of Cushing's Syndrome {.smaller}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+### Physical Signs
+- Obesity — **90%**
+- Hypertension — **85%**
+- Plethora — 70%
+- Hirsutism — 75%
+- Striae — 50%
+- Acne — 35%
+- Easy bruising — 35%
+- Moon face
+- Buffalo hump
+- Truncal obesity
+- Thin extremities
+:::
+
+::: {.column width="33%"}
+### Musculoskeletal
+- Osteopenia — **80%**
+- Proximal weakness — **85%**
+- Muscle wasting
+
+### Psychiatric (85%)
+- Emotional lability
+- Euphoria
+- Depression
+- Psychosis
+:::
+
+::: {.column width="33%"}
+### Metabolic
+- Glucose intolerance — 75%
+- Diabetes — 20%
+- Hyperlipidaemia — 70%
+- Polyuria — 30%
+- Kidney stones — 50%
+
+### Immune
+- **Increased susceptibility to infection**
+:::
+
+::::
+
+---
+
+## Addison's Disease: Overview
+
+- **Thomas Addison** (1855) — first described adrenal insufficiency
+- **Hypoproduction** of cortisol
+- **Difficult to diagnose** clinically — insidious onset, non-specific symptoms
+- Treated with **lifelong glucocorticoid replacement**
+
+---
+
+## Addison's Disease: Symptoms
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Chronic Symptoms
+- Extreme fatigue
+- Weight loss & decreased appetite
+- **Hyperpigmentation** (primary only)
+- Low blood pressure / fainting
+- Salt craving
+- Hypoglycaemia
+- GI symptoms (nausea, vomiting, diarrhoea)
+- Abdominal, muscle & joint pain
+:::
+
+::: {.column width="50%"}
+### Neuropsychiatric
+- Irritability
+- Depression
+- Behavioural changes
+
+### Other
+- Body hair loss in women
+- Sexual dysfunction
+
+### Addisonian Crisis ⚠️
+- Severe hypotension
+- **Hyperkalaemia**
+- Life-threatening emergency
+:::
+
+::::
+
+---
+
+## Primary vs Secondary Adrenal Insufficiency
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Primary (Addison's)
+*Adrenal gland destroyed*
+
+- Autoimmune adrenalitis (commonest in UK)
+- Tuberculosis
+- Other infections
+- Metastatic cancer
+- Adrenal haemorrhage
+
+**→ Hyperpigmentation PRESENT**
+:::
+
+::: {.column width="50%"}
+### Secondary
+*Pituitary/hypothalamic failure*
+
+- Benign pituitary tumours
+- Pituitary inflammation
+- Prior pituitary surgery
+- **Inappropriate corticosteroid withdrawal**
+
+**→ NO hyperpigmentation**
+:::
+
+::::
+
+---
+
+## Why Hyperpigmentation in Primary Disease?
+
+```{mermaid}
+%%| fig-width: 9
+flowchart LR
+    A[Adrenal Failure<br/>↓ Cortisol] --> B[Loss of Negative<br/>Feedback]
+    B --> C[↑ POMC Processing<br/>in Pituitary]
+    C --> D[↑ ACTH]
+    C --> E[↑ γ-Lipotropin]
+    C --> F[↑ β-Endorphin]
+    D --> G[Melanocortin<br/>Receptors]
+    G --> H[↑ Melanin<br/>Deposition]
+    
+    style A fill:#cc0000,color:#fff
+    style H fill:#8B4513,color:#fff
+```
+
+- In primary disease, **ACTH is elevated** because the adrenal cannot respond
+- ACTH is co-derived from **POMC** (pro-opiomelanocortin)
+- ACTH and related peptides activate **melanocortin receptors** → melanin deposition
+- Visible in skin creases, buccal mucosa, scars
+- In secondary disease, ACTH is **low** → no hyperpigmentation
+
+---
+
+## Comparing Cushing's and Addison's
+
+| Feature | Cushing's Syndrome | Addison's Disease |
+|---------|-------------------|-------------------|
+| Cortisol | **↑↑ Excess** | **↓↓ Deficient** |
+| ACTH | Varies by cause | ↑ (primary) / ↓ (secondary) |
+| Weight | Obesity (central) | Weight loss |
+| Blood pressure | Hypertension | Hypotension |
+| Blood glucose | Hyperglycaemia | Hypoglycaemia |
+| Skin | Striae, bruising, acne | Hyperpigmentation (primary) |
+| Potassium | Low-normal | **Hyperkalaemia** |
+| Immune | Immunosuppressed | Normal |
+| Mood | Euphoria → psychosis | Depression, irritability |
+
+---
+
+## Summary: Part 3
+
+:::{.incremental}
+- **Cushing's syndrome** results from glucocorticoid excess — iatrogenic, adrenal, or ectopic ACTH
+- Clinical features reflect the exaggerated physiological actions of cortisol across all systems
+- **Addison's disease** results from cortisol deficiency — primary (adrenal) or secondary (pituitary)
+- Hyperpigmentation distinguishes primary from secondary disease via the **POMC/melanocortin pathway**
+- **Addisonian crisis** (hypotension + hyperkalaemia) is a medical emergency
+- Both conditions are treatable but require lifelong management
+:::
+
+---
+
+## Self-Assessment
+
+<details>
+<summary>**Q1:** A patient presents with cortisol excess, elevated ACTH, and no pituitary abnormality on MRI. What is the most likely diagnosis?</summary>
+**Ectopic ACTH syndrome** — a non-pituitary tumour (e.g., small cell lung carcinoma, bronchial carcinoid) is producing ACTH autonomously. The elevated ACTH drives adrenal cortisol production, but the source is outside the pituitary.
+</details>
+
+<details>
+<summary>**Q2:** Why does secondary adrenal insufficiency NOT cause hyperpigmentation?</summary>
+In secondary insufficiency, the problem is at the pituitary or hypothalamus, so **ACTH production is reduced**, not elevated. Since hyperpigmentation is caused by ACTH-related peptides activating melanocortin receptors, low ACTH means no excess melanin deposition.
+</details>
+
+<details>
+<summary>**Q3:** Explain the mechanism behind hyperkalaemia in Addison's disease.</summary>
+The adrenal cortex also produces **aldosterone** (zona glomerulosa). In primary adrenal insufficiency, aldosterone production is impaired alongside cortisol. Aldosterone normally promotes renal potassium excretion and sodium retention. Its absence leads to **potassium retention (hyperkalaemia)** and sodium/water loss (hypotension).
+</details>
