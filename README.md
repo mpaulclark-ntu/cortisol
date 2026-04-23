@@ -1,6 +1,8 @@
-# BIOL09044 — Unit 5: Cortisol Teaching Website
+# Cortisol Teaching Website
 
-A Quarto-based teaching website for the cortisol unit of the Inflammation & Cancer module at Nottingham Trent University.
+A Quarto-based teaching website covering cortisol physiology, pathophysiology, and drug discovery, taught at Nottingham Trent University.
+
+Live site: <https://mpaulclark-ntu.github.io/cortisol/>
 
 ## Quick Start
 
@@ -15,38 +17,33 @@ quarto preview
 
 ### Adding Support Materials
 
-Copy your files from the local teaching folder into the appropriate `docs/` subdirectory:
+Copy your files from your local teaching folder into the appropriate `docs/` subdirectory. Use lowercase, hyphenated filenames (e.g. `cortisol-lecture-slides.pdf`, not `Cortisol_Lecture_Slides.pdf`).
 
 ```bash
-# Lecture PDFs
-cp "/Users/BIO3PAULM/Documents/Files/BIOL33141_CT Pharmacology/2025_26/YOUR_FILE.pdf" docs/lectures/
+# Lecture PDFs and practice materials
+cp ~/path/to/your-file.pdf docs/lectures/
 
 # Reading materials
-cp "/Users/BIO3PAULM/Documents/Files/BIOL33141_CT Pharmacology/2025_26/YOUR_FILE.pdf" docs/reading/
-
-# Past exams
-cp "/Users/BIO3PAULM/Documents/Files/BIOL33141_CT Pharmacology/2025_26/YOUR_FILE.pdf" docs/exams/
+cp ~/path/to/your-file.pdf docs/reading/
 
 # Practical guides
-cp "/Users/BIO3PAULM/Documents/Files/BIOL33141_CT Pharmacology/2025_26/YOUR_FILE.pdf" docs/practicals/
+cp ~/path/to/your-file.pdf docs/practicals/
 ```
 
 Then update the links in `support-materials.qmd` to match your filenames.
 
-### Deploy to GitHub Pages
+> Note: `docs/exams/` is listed in `.gitignore` and is not published. Keep any materials you don't want students to access via that folder.
 
-1. Create a new GitHub repository
-2. Push this project:
-```bash
-git init
-git add -A
-git commit -m "Initial commit - cortisol teaching site"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/cortisol-teaching.git
-git push -u origin main
-```
-3. In GitHub: Settings → Pages → Source → GitHub Actions
-4. The site will build automatically on every push
+### Day-to-day updates
+
+1. Edit `.qmd` files to update lecture content or add support-material links.
+2. Commit and push:
+   ```bash
+   git add -A
+   git commit -m "Short description of change"
+   git push
+   ```
+3. The GitHub Actions workflow rebuilds and redeploys the site automatically on every push to `main` (~2 minutes).
 
 ### Project Structure
 
@@ -66,23 +63,16 @@ cortisol-teaching-site/
 │   ├── 05-drug-discovery-process.qmd
 │   ├── cortisol-full.qmd    # Combined slide deck
 │   └── assessment-questions.qmd
-├── docs/                    # ← Drop your PDFs here
+├── docs/                    # Published alongside the site
 │   ├── lectures/
 │   ├── reading/
-│   ├── exams/
 │   └── practicals/
 └── .github/workflows/
     └── publish.yml          # Auto-deploy on push
 ```
 
-## Updating Content
-
-- Edit `.qmd` files to update lecture content
-- Add new PDFs to `docs/` subfolders and link them in `support-materials.qmd`
-- Push to `main` branch — the site rebuilds automatically
-
 ## Author
 
-Dr Mark Paul-Clark  
-Senior Lecturer in Pharmacology  
+Dr Mark Paul-Clark
+Senior Lecturer in Pharmacology
 Nottingham Trent University

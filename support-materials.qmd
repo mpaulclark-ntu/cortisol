@@ -68,31 +68,29 @@ To add your support documents from your local machine:
 
 ```bash
 # From your local machine
-# Lectures
-cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/*.pdf docs/lectures/
+# Lectures and practice materials
+cp ~/path/to/your-file.pdf docs/lectures/
 
-# Reading materials  
-cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/reading/*.pdf docs/reading/
-
-# Past exams
-cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/exams/*.pdf docs/exams/
+# Reading materials
+cp ~/path/to/your-file.pdf docs/reading/
 
 # Practical guides
-cp /Users/BIO3PAULM/Documents/Files/BIOL33141_CT\ Pharmacology/2025_26/practicals/*.pdf docs/practicals/
+cp ~/path/to/your-file.pdf docs/practicals/
 ```
+
+> `docs/exams/` is gitignored and will **not** be published — keep anything students shouldn't see in that folder.
 
 **Step 2:** Update the table entries above to match your actual filenames.
 
-**Step 3:** Rebuild and deploy:
+**Step 3:** Commit and push:
 
 ```bash
-quarto render
 git add -A
 git commit -m "Added support materials"
 git push
 ```
 
-The site will automatically rebuild on GitHub Pages.
+The site will rebuild automatically on GitHub Pages (~2 minutes).
 
-**File naming convention:** Use descriptive names without spaces, e.g., `Cortisol_Full_Lecture.pdf`, `Rhen_Cidlowski_2005.pdf`
+**File naming convention:** Use lowercase, hyphenated names without spaces, e.g. `cortisol-lecture-slides.pdf`, `rhen-cidlowski-2005.pdf`.
 :::
